@@ -7,8 +7,6 @@ export default async function Home({ params: { lang } }: { params: { lang: "en" 
   const dict = await getDictionary(lang)
   return (
     <>
-      <ModeToggle />
-      <Button className="font-light">{dict.products.cart}</Button>
     </>
   )
 }

@@ -1,9 +1,9 @@
-import type { Metadata } from "next";
 import "./globals.css";
 import { dana, jet } from "@/lib"
 import { Locale, i18n } from "@/i18n.config";
 import { getDictionary } from "@/lib/dictionaries";
 import { ThemeProvider } from "@/lib/providers/theme-provider";
+import Header from "@/components/ui/shared/header";
 
 export async function generateMetadata({ params: { lang } }: { params: { lang: Locale } }) {
   const dict = await getDictionary(lang)
@@ -30,7 +30,10 @@ export default function RootLayout({
   }
 }>) {
   return (
-    <html lang={params.lang}>
+    <html
+      lang={params.lang}
+      dir={params.lang === 'en' ? 'ltr' : 'rtl'}
+    >
       <body className={`${params.lang === 'en' ? `${jet.variable} font-jet` : `${dana.variable} font-dana`}`}>
         <ThemeProvider
           attribute="class"
@@ -38,6 +41,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <Header lang={params.lang} />
           {children}
         </ThemeProvider>
       </body>

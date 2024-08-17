@@ -3,6 +3,32 @@
         "title": "My Portfolio",
         "description": "This is a portfolio for Hamidreza Hashemi | Frontend web developer"
     },
+    "header": {
+        "title": "Hamidreza",
+        "hireMe": "Hire Me",
+        "links": [
+            {
+                "name": "home",
+                "path": "/"
+            },
+            {
+                "name": "services",
+                "path": "/services"
+            },
+            {
+                "name": "resume",
+                "path": "/resume"
+            },
+            {
+                "name": "work",
+                "path": "/work"
+            },
+            {
+                "name": "contact",
+                "path": "/contact"
+            }
+        ]
+    },
     "products": {
         "cart": "Add to Cart"
     }
