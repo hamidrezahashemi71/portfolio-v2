@@ -9,23 +9,23 @@
         "links": [
             {
                 "name": "خانه",
-                "path": "/"
+                "path": "/fa"
             },
             {
                 "name": "سرویس ها",
-                "path": "/services"
+                "path": "/fa/services"
             },
             {
                 "name": "رزومه",
-                "path": "/resume"
+                "path": "/fa/resume"
             },
             {
                 "name": "کار",
-                "path": "/work"
+                "path": "/fa/work"
             },
             {
                 "name": "ارتباط",
-                "path": "/contact"
+                "path": "/fa/contact"
             }
         ],
         "mode": {

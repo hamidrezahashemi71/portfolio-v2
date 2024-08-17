@@ -9,23 +9,23 @@
         "links": [
             {
                 "name": "home",
-                "path": "/"
+                "path": "/en"
             },
             {
                 "name": "services",
-                "path": "/services"
+                "path": "/en/services"
             },
             {
                 "name": "resume",
-                "path": "/resume"
+                "path": "/en/resume"
             },
             {
                 "name": "work",
-                "path": "/work"
+                "path": "/en/work"
             },
             {
                 "name": "contact",
-                "path": "/contact"
+                "path": "/en/contact"
             }
         ],
         "mode": {

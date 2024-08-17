@@ -1,5 +1,7 @@
 import { motion } from "framer-motion"
 
+const steps = 6
+
 const stairAnimation = {
     initial: {
         top: "0%"
@@ -13,14 +15,13 @@ const stairAnimation = {
 }
 
 const reverseIndex = (index: number) => {
-    const totalSteps = 6
-    return totalSteps - index - 1
+    return steps - index - 1
 }
 
 export default function Stairs() {
     return (
         <>
-            {[...Array(6)].map((_, index) => {
+            {[...Array(steps)].map((_, index) => {
                 return (
                     <motion.div
                         key={index}

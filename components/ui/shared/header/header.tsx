@@ -5,6 +5,8 @@ import { Locale } from "@/i18n.config"
 import Nav from "./nav"
 import { ModeToggle } from "./mode-toggle"
 import LocaleSwitcher from "./locale-toggle"
+import MobileNav from "./mobile-nav"
+import Logo from "./logo"
 
 export default async function Header({ lang }: { lang: Locale }) {
     const dict = await getDictionary(lang)
@@ -13,16 +15,11 @@ export default async function Header({ lang }: { lang: Locale }) {
     return (
         <header className="py-8 xl:py-12 text-light-text dark:text-dark-text">
             <div className="container mx-auto flex justify-between items-center">
-                <Link href={"/"}>
-                    <h1 className="text-4xl font-semibold">
-                        {title}
-                        <span className="text-light-accent dark:text-dark-accent"> .</span>
-                    </h1>
-                </Link>
+                <Logo title={title} />
                 <div className="hidden xl:flex items-center gap-8 ">
                     <Nav links={links} lang={lang} />
-                    <Link href={'/contact'}>
-                        <Button>
+                    <Link href={`/${lang}/contact`}>
+                        <Button variant={'default'}>
                             {hireMe}
                         </Button>
                     </Link>
@@ -30,7 +27,7 @@ export default async function Header({ lang }: { lang: Locale }) {
                     <LocaleSwitcher />
                 </div>
                 <div className="xl:hidden">
-                    mobile nav
+                    <MobileNav links={links} lang={lang} mode={mode} title={title} />
                 </div>
             </div>
         </header>
