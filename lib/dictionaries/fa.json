@@ -27,7 +27,12 @@
                 "name": "ارتباط",
                 "path": "/contact"
             }
-        ]
+        ],
+        "mode": {
+            "dark": "دارک",
+            "light": "لایت",
+            "system": "سیستم"
+        }
     },
     "products": {
         "cart": "اضافه به سبد خرید"

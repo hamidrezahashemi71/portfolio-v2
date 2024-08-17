@@ -1,7 +1,7 @@
 import type { Config } from "tailwindcss"
 
 const config = {
-  darkMode: ["class"],
+  darkMode: 'selector',
   content: [
     './pages/**/*.{ts,tsx}',
     './components/**/*.{ts,tsx}',
@@ -22,11 +22,24 @@ const config = {
     },
     extend: {
       colors: {
-        primary: "#1c1c22",
-        accent: {
-          DEFAULT: "#00ff99",
-          hover: "#00e187"
-        }
+        dark: {
+          primary: "#071E3D",
+          secondary: "#1F4287",
+          text: "#FFFBF5",
+          accent: {
+            DEFAULT: "#21E6C1",
+            hover: "#278EA5"
+          }
+        },
+        light: {
+          primary: "#FFFBF5",
+          secondary: "#F7EFE5",
+          text: "#071E3D",
+          accent: {
+            DEFAULT: "#7743DB",
+            hover: "#C3ACD0"
+          }
+        },
       },
       fontFamily: {
         jet: ['var(--font-jet)'],

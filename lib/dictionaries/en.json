@@ -27,7 +27,12 @@
                 "name": "contact",
                 "path": "/contact"
             }
-        ]
+        ],
+        "mode": {
+            "dark": "Dark",
+            "light": "Light",
+            "system": "System"
+        }
     },
     "products": {
         "cart": "Add to Cart"

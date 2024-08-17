@@ -31,8 +31,10 @@ export default function RootLayout({
 }>) {
   return (
     <html
+      suppressHydrationWarning
       lang={params.lang}
       dir={params.lang === 'en' ? 'ltr' : 'rtl'}
+      className="dark"
     >
       <body className={`${params.lang === 'en' ? `${jet.variable} font-jet` : `${dana.variable} font-dana`}`}>
         <ThemeProvider
