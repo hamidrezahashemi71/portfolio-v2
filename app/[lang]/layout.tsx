@@ -3,7 +3,9 @@ import { dana, jet } from "@/lib"
 import { Locale, i18n } from "@/i18n.config";
 import { getDictionary } from "@/lib/dictionaries";
 import { ThemeProvider } from "@/lib/providers/theme-provider";
-import Header from "@/components/ui/shared/header";
+import Header from "@/components/ui/shared/header/header";
+import PageTransition from "@/components/ui/shared/transition/page-transition";
+import StairTransition from "@/components/ui/shared/transition/stair-transition";
 
 export async function generateMetadata({ params: { lang } }: { params: { lang: Locale } }) {
   const dict = await getDictionary(lang)
@@ -44,7 +46,10 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Header lang={params.lang} />
-          {children}
+          <StairTransition />
+          <PageTransition>
+            {children}
+          </PageTransition>
         </ThemeProvider>
       </body>
     </html>

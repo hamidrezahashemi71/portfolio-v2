@@ -24,7 +24,7 @@ export default function Nav(props: Props) {
                         href={path}
                         key={name}
                         className={`
-                            ${`${path}${lang}` === pathname && 'text-light-accent dark:text-dark-accent border-b-2 border-light-accent dark:border-dark-accent'}
+                            ${(`/${lang}${path}` === pathname || `${path}${lang}` === pathname) && 'text-light-accent dark:text-dark-accent border-b-2 border-light-accent dark:border-dark-accent'}
                             capitalize font-medium hover:text-light-accent hover:dark:text-dark-accent transition-all
                             `}
                     >

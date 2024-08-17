@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { ModeToggle } from "@/components/ui/shared/mode-toggle"
+import { ModeToggle } from "@/components/ui/shared/header/mode-toggle"
 import { getDictionary } from "@/lib/dictionaries"
 
 
