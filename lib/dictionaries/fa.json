@@ -1,5 +1,9 @@
 {
+    "metadata": {
+        "title": "پورتفولیوی من",
+        "description": "این پورتفولیوی حمیدرضا هاشمی است | دولوپر فرانت اند"
+    },
     "products": {
-        "cart": "Toevoegen aan Winkelwagen"
+        "cart": "اضافه به سبد خرید"
     }
 }

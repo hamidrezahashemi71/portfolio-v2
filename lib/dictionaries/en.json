@@ -1,4 +1,8 @@
 {
+    "metadata": {
+        "title": "My Portfolio",
+        "description": "This is a portfolio for Hamidreza Hashemi | Frontend web developer"
+    },
     "products": {
         "cart": "Add to Cart"
     }
