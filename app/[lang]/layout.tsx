@@ -3,6 +3,7 @@ import "./globals.css";
 import { dana, jet } from "@/lib"
 import { Locale, i18n } from "@/i18n.config";
 import { getDictionary } from "@/lib/dictionaries";
+import { ThemeProvider } from "@/lib/providers/theme-provider";
 
 export async function generateMetadata({ params: { lang } }: { params: { lang: Locale } }) {
   const dict = await getDictionary(lang)
@@ -31,7 +32,14 @@ export default function RootLayout({
   return (
     <html lang={params.lang}>
       <body className={`${params.lang === 'en' ? `${jet.variable} font-jet` : `${dana.variable} font-dana`}`}>
-        {children}
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );
