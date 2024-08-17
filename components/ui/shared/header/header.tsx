@@ -15,7 +15,7 @@ export default async function Header({ lang }: { lang: Locale }) {
     return (
         <header className="py-8 xl:py-12 text-light-text dark:text-dark-text">
             <div className="container mx-auto flex justify-between items-center">
-                <Logo title={title} />
+                <Logo title={title} lang={lang} />
                 <div className="hidden xl:flex items-center gap-8 ">
                     <Nav links={links} lang={lang} />
                     <Link href={`/${lang}/contact`}>

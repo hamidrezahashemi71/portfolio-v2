@@ -33,7 +33,7 @@ export default function MobileNav(props: Props) {
                 <Menu className="text-[32px] text-light-accent dark:text-dark-accent" />
             </SheetTrigger>
             <SheetContent side={lang === 'en' ? 'right' : 'left'} className="flex flex-col">
-                <div className="flex w-1/2 items-center justify-between gap-2">
+                <div className="flex w-1/2 mt-2 items-center justify-between gap-2">
                     <ModeToggle mode={mode} />
                     <LocaleSwitcher />
                 </div>

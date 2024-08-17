@@ -34,6 +34,13 @@
             "system": "System"
         }
     },
+    "home": {
+        "title": "Web Developer",
+        "h1": "Hello, I'm",
+        "span": "Hamidreza Hashemi",
+        "about": "I represent myself as a hardworking energetic lifelong-learner who finds programming best way to live life to the fullest. I am passionate about taking risks and challenges and solving them by communicating & sharing experience and knowledge.",
+        "downloadcv": "Download CV"
+    },
     "products": {
         "cart": "Add to Cart"
     }
