@@ -58,5 +58,41 @@
                 "text": "Github contributions"
             }
         ]
+    },
+    "services": {
+        "services": [
+            {
+                "num": "01",
+                "title": "Frontend Web Development",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia alias fuga iste.",
+                "href": "",
+                "active": true,
+                "status": "Active"
+            },
+            {
+                "num": "02",
+                "title": "Web Product Management",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia alias fuga iste.",
+                "href": "",
+                "active": true,
+                "status": "Active"
+            },
+            {
+                "num": "03",
+                "title": "Wordpress Development",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia alias fuga iste.",
+                "href": "",
+                "active": true,
+                "status": "Active"
+            },
+            {
+                "num": "04",
+                "title": "Graphic Design",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia alias fuga iste.",
+                "href": "",
+                "active": false,
+                "status": "Inactive"
+            }
+        ]
     }
 }

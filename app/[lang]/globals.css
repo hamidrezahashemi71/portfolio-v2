@@ -18,4 +18,21 @@
     .h3 {
         @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold
     }
+
+    .text-outline-light {
+        -webkit-text-stroke: 1px #071E3D;
+    }
+
+    .text-outline-dark {
+        -webkit-text-stroke: 1px #FFFBF5;
+    }
+
+    .text-outline-light-hover {
+        -webkit-text-stroke: 1px #7743DB;
+    }
+
+    .text-outline-dark-hover {
+        -webkit-text-stroke: 1px #21E6C1;
+
+    }
 }
