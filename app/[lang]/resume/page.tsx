@@ -6,6 +6,7 @@ export default async function Resume({ params: { lang } }: { params: { lang: "en
     const { titles, about, info, experience, education, skills } = dict.resume
     return (
         <ResumeRoot
+            lang={lang}
             titles={titles}
             about={about}
             info={info}
