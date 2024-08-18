@@ -163,16 +163,17 @@ export default function ResumeRoot(props: Props) {
         >
             <div className="container mx-auto">
                 <Tabs
+                    dir={lang === 'en' ? 'ltr' : 'rtl'}
                     defaultValue="experience"
                     className="flex flex-col xl:flex-row gap-[60px]"
                 >
-                    <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6">
+                    <TabsList className={`flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6 `}>
                         <TabsTrigger value="experience">{titles.experience}</TabsTrigger>
                         <TabsTrigger value="education">{titles.education}</TabsTrigger>
                         <TabsTrigger value="skills">{titles.skills}</TabsTrigger>
                         <TabsTrigger value="about">{titles.about}</TabsTrigger>
                     </TabsList>
-                    <div className="min-h-[70vh] w-full">
+                    <div className={`min-h-[70vh] w-full `}>
                         <TabsContent
                             value="experience"
                             className="w-full"
@@ -185,7 +186,9 @@ export default function ResumeRoot(props: Props) {
                                     {experience.description}
                                 </p>
                                 <ScrollArea className="h-[480px]">
-                                    <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
+                                    <ul
+                                        dir={lang === 'en' ? 'ltr' : 'rtl'}
+                                        className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
                                         {experience.items.map(({ company, companyLinkedInLink, duration, position }) => {
                                             return (
                                                 <li
@@ -197,9 +200,9 @@ export default function ResumeRoot(props: Props) {
                                                     </span>
                                                     <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-start">{position}</h3>
                                                     <div className="flex items-center gap-3">
-                                                        <span className="w-[6px] h-[6px] rounded-full bg-light-accent dark:bg-dark-accent animate-pulse"></span>
+                                                        <span className={`w-[6px] h-[6px] rounded-full bg-light-accent dark:bg-dark-accent animate-pulse`}></span>
                                                         <Link href={companyLinkedInLink}>
-                                                            <p className="text-light-text/60 dark:text-dark-text/60 hover:text-light-text hover:dark:text-dark-text transition-all">
+                                                            <p className={`text-light-text/60 dark:text-dark-text/60 hover:text-light-text hover:dark:text-dark-text transition-all`}>
                                                                 {company}
                                                             </p>
                                                         </Link>
@@ -223,7 +226,10 @@ export default function ResumeRoot(props: Props) {
                                     {education.description}
                                 </p>
                                 <ScrollArea className="h-[480px]">
-                                    <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
+                                    <ul
+                                        dir={lang === 'en' ? 'ltr' : 'rtl'}
+                                        className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]"
+                                    >
                                         {education.items.map(({ Institution, companyLinkedInLink, duration, position }) => {
                                             return (
                                                 <li
@@ -235,9 +241,9 @@ export default function ResumeRoot(props: Props) {
                                                     </span>
                                                     <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-start">{position}</h3>
                                                     <div className="flex items-center gap-3">
-                                                        <span className={`w-[6px] h-[6px] rounded-full bg-light-accent dark:bg-dark-accent animate-pulse ${lang === 'en' ? 'order-1' : 'order-2'}`}></span>
+                                                        <span className={`w-[6px] h-[6px] rounded-full bg-light-accent dark:bg-dark-accent animate-pulse`}></span>
                                                         <Link href={companyLinkedInLink}>
-                                                            <p className={`text-light-text/60 dark:text-dark-text/60 hover:text-light-text hover:dark:text-dark-text transition-all ${lang === 'en' ? 'order-2' : 'order-1'}`}>
+                                                            <p className={`text-light-text/60 dark:text-dark-text/60 hover:text-light-text hover:dark:text-dark-text transition-all`}>
                                                                 {Institution}
                                                             </p>
                                                         </Link>
@@ -290,7 +296,34 @@ export default function ResumeRoot(props: Props) {
                             value="about"
                             className="w-full"
                         >
-                            {titles.about}
+                            <div className="flex flex-col gap-[30px] text-center xl:text-start">
+                                <h3 className="text-4xl font-bold">
+                                    {about.title}
+                                </h3>
+                                <p className="max-w-[600px] text-light-text/60 dark:text-dark-text/60 mx-auto xl:mx-0">
+                                    {about.description}
+                                </p>
+                                <ul
+                                    dir={lang === 'en' ? 'ltr' : 'rtl'}
+                                    className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px] mx-auto xl:mx-0"
+                                >
+                                    {info.map(({ fieldName, fieldValue }) => {
+                                        return (
+                                            <li
+                                                key={fieldName}
+                                                className="flex items-center justify-center xl:justify-start gap-4"
+                                            >
+                                                <span className={`text-light-text/60 dark:text-dark-text/60 `}>
+                                                    {fieldName}
+                                                </span>
+                                                <span className={`text-xl `}>
+                                                    {fieldValue}
+                                                </span>
+                                            </li>
+                                        )
+                                    })}
+                                </ul>
+                            </div>
                         </TabsContent>
                     </div>
                 </Tabs>
