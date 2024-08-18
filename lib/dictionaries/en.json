@@ -39,6 +39,24 @@
         "h1": "Hello, I'm",
         "span": "Hamidreza Hashemi",
         "about": "I represent myself as a hardworking energetic lifelong-learner who finds programming best way to live life to the fullest. I am passionate about taking risks and challenges and solving them by communicating & sharing experience and knowledge.",
-        "downloadcv": "Download CV"
+        "downloadcv": "Download CV",
+        "stats": [
+            {
+                "num": 3,
+                "text": "Years of experience"
+            },
+            {
+                "num": 16,
+                "text": "Projects completed"
+            },
+            {
+                "num": 10,
+                "text": "Technologies mastered"
+            },
+            {
+                "num": 4000,
+                "text": "Github contributions"
+            }
+        ]
     }
 }

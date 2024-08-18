@@ -1,5 +1,6 @@
 import Photo from "@/components/home/photo"
 import Socials from "@/components/home/socials"
+import Stats from "@/components/home/stats"
 import { Button } from "@/components/ui/button"
 import { getDictionary } from "@/lib/dictionaries"
 import { FiDownload } from "react-icons/fi"
@@ -7,7 +8,7 @@ import { FiDownload } from "react-icons/fi"
 
 export default async function Home({ params: { lang } }: { params: { lang: "en" | "fa" } }) {
   const dict = await getDictionary(lang)
-  const { title, h1, span, about, downloadcv } = dict.home
+  const { title, h1, span, about, downloadcv, stats } = dict.home
 
   return (
     <section className="h-full">
@@ -48,6 +49,7 @@ export default async function Home({ params: { lang } }: { params: { lang: "en" 
           </div>
         </div>
       </div>
+      <Stats stats={stats} />
     </section>
   )
 }
