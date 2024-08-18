@@ -1,7 +1,7 @@
 {
     "metadata": {
         "title": "My Portfolio",
-        "description": "This is a portfolio for Hamidreza Hashemi | Frontend web developer"
+        "description": "This is a portfolio for Sara Jalal | Frontend web developer"
     },
     "header": {
         "title": "Hamidreza",
@@ -38,7 +38,7 @@
         "title": "Web Developer",
         "h1": "Hello, I'm",
         "span": "Hamidreza Hashemi",
-        "about": "I represent myself as a hardworking energetic lifelong-learner who finds programming best way to live life to the fullest. I am passionate about taking risks and challenges and solving them by communicating & sharing experience and knowledge.",
+        "about": "Finding the answer has been one of the most important core values of my life. So I can say if I'm not good at knowing everything, I'm best at making solutions and teaching it to others.",
         "downloadcv": "Download CV",
         "stats": [
             {
@@ -92,7 +92,127 @@
                 "href": "",
                 "active": false,
                 "status": "Inactive"
+            },
+            {
+                "num": "05",
+                "title": "Math Teacher",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia alias fuga iste.",
+                "href": "",
+                "active": false,
+                "status": "Inactive"
             }
         ]
+    },
+    "resume": {
+        "titles": {
+            "experience": "Experience",
+            "education": "Education",
+            "skills": "Skills",
+            "about": "About Me"
+        },
+        "about": {
+            "title": "About me",
+            "description": "Finding the answer has been one of the most important core values of my life. So I can say if I'm not good at knowing everything, I'm best at making solutions and teaching it to others."
+        },
+        "info": [
+            {
+                "fieldName": "Name",
+                "fieldValue": "Hamidreza Hashemi"
+            },
+            {
+                "fieldName": "Phone",
+                "fieldValue": "(+98) 919 589 2013"
+            },
+            {
+                "fieldName": "Experience",
+                "fieldValue": "6+ Years"
+            },
+            {
+                "fieldName": "Google Meet",
+                "fieldValue": "sarajalal115@gmail.com"
+            },
+            {
+                "fieldName": "Nationality",
+                "fieldValue": "Iranian/Bahraini"
+            },
+            {
+                "fieldName": "Email",
+                "fieldValue": "sarajalal115@gmail.com"
+            },
+            {
+                "fieldName": "Freelance",
+                "fieldValue": "Available"
+            },
+            {
+                "fieldName": "Languages",
+                "fieldValue": "English, Farsi"
+            }
+        ],
+        "experience": {
+            "icon": "/images/resume/badge.svg",
+            "title": "My experience",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia alias fuga iste.",
+            "items": [
+                {
+                    "company": "Nikaat",
+                    "companyLinkedInLink": "",
+                    "position": "Product Manager",
+                    "duration": "Jul 2023 - present"
+                },
+                {
+                    "company": "Nikaat",
+                    "companyLinkedInLink": "",
+                    "position": "Frontend Developer",
+                    "duration": "Feb 2023 - Present"
+                },
+                {
+                    "company": "Makeen Ideal Institution",
+                    "companyLinkedInLink": "",
+                    "position": "Frontend Developer",
+                    "duration": "Jun 2022 - Jan 2023"
+                },
+                {
+                    "company": "Freelance",
+                    "companyLinkedInLink": "",
+                    "position": "Wordpress Developer",
+                    "duration": "2020 - present"
+                },
+                {
+                    "company": "Freelance",
+                    "companyLinkedInLink": "",
+                    "position": "Graphic Designer",
+                    "duration": "2019 - 2022"
+                },
+                {
+                    "company": "Freelance",
+                    "companyLinkedInLink": "",
+                    "position": "Math Teacher",
+                    "duration": "2018 - 2020"
+                }
+            ]
+        },
+        "education": {
+            "icon": "/images/resume/cap.svg",
+            "title": "My education",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia alias fuga iste.",
+            "items": [
+                {
+                    "Institution": "Makeen Programming Bootcamp",
+                    "companyLinkedInLink": "",
+                    "position": "Frontend development Intern",
+                    "duration": "Jun 2022 - Oct 2022"
+                },
+                {
+                    "Institution": "Islamic Azad University Science and Research Branch",
+                    "companyLinkedInLink": "",
+                    "position": "B.A. Software engineering",
+                    "duration": "Oct 2018 - Jun 2022"
+                }
+            ]
+        },
+        "skills": {
+            "title": "My skills",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia alias fuga iste."
+        }
     }
 }
