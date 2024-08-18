@@ -1,3 +1,4 @@
+import Photo from "@/components/home/photo"
 import Socials from "@/components/home/socials"
 import { Button } from "@/components/ui/button"
 import { getDictionary } from "@/lib/dictionaries"
@@ -12,7 +13,7 @@ export default async function Home({ params: { lang } }: { params: { lang: "en" 
     <section className="h-full">
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
-          <div className="text-center xl:text-start ">
+          <div className="text-center xl:text-start order-2 xl:order-none">
             <span className="text-xl ">
               {title}
             </span>
@@ -42,7 +43,9 @@ export default async function Home({ params: { lang } }: { params: { lang: "en" 
               </div>
             </div>
           </div>
-          <div>photo</div>
+          <div className="order-1 xl:order-none mb-8 xl:mb0">
+            <Photo />
+          </div>
         </div>
       </div>
     </section>
