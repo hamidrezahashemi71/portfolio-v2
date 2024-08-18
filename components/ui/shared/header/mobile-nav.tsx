@@ -2,7 +2,7 @@
 
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { Locale } from "@/i18n.config"
-import { Menu } from "lucide-react"
+import { CiMenuFries } from "react-icons/ci";
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { ModeToggle } from "./mode-toggle"
@@ -30,7 +30,7 @@ export default function MobileNav(props: Props) {
     return (
         <Sheet>
             <SheetTrigger className="flex justify-center items-center">
-                <Menu className="text-[32px] text-light-accent dark:text-dark-accent" />
+                <CiMenuFries className="text-[32px] text-light-accent dark:text-dark-accent" />
             </SheetTrigger>
             <SheetContent side={lang === 'en' ? 'right' : 'left'} className="flex flex-col">
                 <div className="flex w-1/2 mt-2 items-center justify-between gap-2">
@@ -38,7 +38,7 @@ export default function MobileNav(props: Props) {
                     <LocaleSwitcher />
                 </div>
                 <div className="mt-32 mb-40 text-center text-2xl">
-                    <Logo title={title} />
+                    <Logo title={title} lang={lang} />
                 </div>
                 <nav className="flex flex-col justify-center items-center gap-8">
                     {links.map(({ name, path }) => {

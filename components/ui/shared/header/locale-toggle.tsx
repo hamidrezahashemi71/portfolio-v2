@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation'
 import { i18n } from '@/i18n.config'
 import { Button } from '@/components/ui/button'
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
-import { Globe } from 'lucide-react'
+import { FaGlobe } from "react-icons/fa";
 
 export default function LocaleSwitcher() {
     const pathName = usePathname()
@@ -21,8 +21,8 @@ export default function LocaleSwitcher() {
     return (
         <DropdownMenu>
             <DropdownMenuTrigger asChild>
-                <Button variant="ghost" size="icon" className="outline-none" >
-                    <Globe />
+                <Button variant="ghost" size="lg" className="outline-none" >
+                    <FaGlobe size={'20px'} />
                     <span className="sr-only">Toggle locale</span>
                 </Button>
             </DropdownMenuTrigger>

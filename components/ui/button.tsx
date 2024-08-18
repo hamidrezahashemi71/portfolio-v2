@@ -11,7 +11,8 @@ const buttonVariants = cva(
       variant: {
         default: "bg-light-accent dark:bg-dark-accent text-dark-text hover:bg-light-accent-hover dark:hover:bg-dark-accent-hover transition-all",
         primary: 'bg-dark-primary dark:bg-light-primary text-dark-text dark:text-light-text',
-        outline: 'border border-light-accent dark:border-dark-accent bg-transparent text-light-accent dark:text-dark-accent hover:bg-light-accent hover:dark:bg-dark-accent hover:text-light-primary'
+        outline: 'border border-light-accent dark:border-dark-accent bg-transparent text-light-accent dark:text-dark-accent hover:bg-light-accent hover:dark:bg-dark-accent hover:text-light-primary',
+        ghost: 'bg-transparent'
       },
       size: {
         default: "h-[44px] px-6",

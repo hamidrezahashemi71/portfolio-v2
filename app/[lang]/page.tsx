@@ -1,6 +1,7 @@
+import Socials from "@/components/home/socials"
 import { Button } from "@/components/ui/button"
 import { getDictionary } from "@/lib/dictionaries"
-import { Download } from "lucide-react"
+import { FiDownload } from "react-icons/fi"
 
 
 export default async function Home({ params: { lang } }: { params: { lang: "en" | "fa" } }) {
@@ -34,9 +35,11 @@ export default async function Home({ params: { lang } }: { params: { lang: "en" 
                 <span>
                   {downloadcv}
                 </span>
-                <Download className="text-xl " />
+                <FiDownload className="text-2xl " />
               </Button>
-              <div>socials</div>
+              <div className="mb-8 xl:mb-0">
+                <Socials />
+              </div>
             </div>
           </div>
           <div>photo</div>
