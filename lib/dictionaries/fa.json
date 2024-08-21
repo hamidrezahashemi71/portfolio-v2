@@ -4,7 +4,7 @@
         "description": "این پورتفولیوی سارا جلال است | دولوپر فرانت اند"
     },
     "header": {
-        "title": "حمیدرضا",
+        "title": "سارا",
         "hireMe": "استخدامم کن",
         "links": [
             {
@@ -37,7 +37,7 @@
     "home": {
         "title": "توسعه دهنده وب",
         "h1": "سلام. من",
-        "span": "حمیدرضا هاشمی ام",
+        "span": "سارا جلال هستم",
         "about": "یافتن پاسخ‌ها همواره یکی از مهم‌ترین ارزش‌های زندگی من بوده است. اگرچه ممکن است در دانستن همه چیز بهترین نباشم، اما در ارائه راه‌حل‌ها و آموزش آن به دیگران بهترین هستم.",
         "downloadcv": "دانلود رزومه",
         "stats": [
@@ -117,19 +117,19 @@
         "info": [
             {
                 "fieldName": "نام",
-                "fieldValue": "حمیدرضا هاشمی"
+                "fieldValue": "سارا جلال"
             },
             {
                 "fieldName": "تلفن",
-                "fieldValue": "(+98) 919 589 2013"
+                "fieldValue": "(+98) 903 134 6086"
             },
             {
                 "fieldName": "تجربه",
                 "fieldValue": "6+ سال"
             },
             {
-                "fieldName": "گوگل میت",
-                "fieldValue": "sarajalal115@gmail.com"
+                "fieldName": " میت",
+                "fieldValue": "Sara.jalal.115@gmail.com"
             },
             {
                 "fieldName": "ملیت",
@@ -137,7 +137,7 @@
             },
             {
                 "fieldName": "ایمیل",
-                "fieldValue": "sarajalal115@gmail.com"
+                "fieldValue": "Sara.jalal.115@gmail.com"
             },
             {
                 "fieldName": "فریلنس",
@@ -156,7 +156,7 @@
                 {
                     "company": "نیکات",
                     "companyLinkedInLink": "",
-                    "position": "مدیر محصول",
+                    "position": "لید تیم توسعه",
                     "duration": "جولای 2023 - اکنون"
                 },
                 {
@@ -504,6 +504,70 @@
                 "image": "/images/work/thumb1.png",
                 "live": "",
                 "github": ""
+            }
+        ]
+    },
+    "contact": {
+        "title": "همکاری با من",
+        "description": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ.",
+        "selectPlaceholder": "یک سرویس انتخاب کنید",
+        "select": [
+            {
+                "value": "fwd",
+                "title": "توسعه وب فرانت‌اند"
+            },
+            {
+                "value": "wpm",
+                "title": "مدیریت محصول وب"
+            },
+            {
+                "value": "wpd",
+                "title": "توسعه وردپرس"
+            },
+            {
+                "value": "grd",
+                "title": "طراحی گرافیک"
+            },
+            {
+                "value": "mtc",
+                "title": "تدریس ریاضی"
+            }
+        ],
+        "inputs": [
+            {
+                "type": "firstname",
+                "placeholder": "نام"
+            },
+            {
+                "type": "lastname",
+                "placeholder": "نام خانوادگی"
+            },
+            {
+                "type": "email",
+                "placeholder": "آدرس ایمیل"
+            },
+            {
+                "type": "phone",
+                "placeholder": "شماره تلفن"
+            }
+        ],
+        "textareaPlaceholder": "پیامتان را اینجا تایپ کنید...",
+        "buttonText": "ارسال پیام",
+        "info": [
+            {
+                "icon": "phone",
+                "title": "تلفن",
+                "description": "9031346086 (98+) "
+            },
+            {
+                "icon": "email",
+                "title": "ایمیل",
+                "description": "Sara.jalal.115@gmail.com"
+            },
+            {
+                "icon": "map",
+                "title": "محل سکونت",
+                "description": "تهران - ایران"
             }
         ]
     }

@@ -4,7 +4,7 @@
         "description": "This is a portfolio for Sara Jalal | Frontend web developer"
     },
     "header": {
-        "title": "Hamidreza",
+        "title": "Sara",
         "hireMe": "Hire Me",
         "links": [
             {
@@ -37,7 +37,7 @@
     "home": {
         "title": "Web Developer",
         "h1": "Hello, I'm",
-        "span": "Hamidreza Hashemi",
+        "span": "Sara Jalal",
         "about": "Finding the answer has been one of the most important core values of my life. So I can say if I'm not good at knowing everything, I'm best at making solutions and teaching it to others.",
         "downloadcv": "Download CV",
         "stats": [
@@ -117,19 +117,19 @@
         "info": [
             {
                 "fieldName": "Name",
-                "fieldValue": "Hamidreza Hashemi"
+                "fieldValue": "Sara Jalal"
             },
             {
                 "fieldName": "Phone",
-                "fieldValue": "(+98) 919 589 2013"
+                "fieldValue": "(+98) 903 134 6086"
             },
             {
                 "fieldName": "Experience",
                 "fieldValue": "6+ Years"
             },
             {
-                "fieldName": "Google Meet",
-                "fieldValue": "sarajalal115@gmail.com"
+                "fieldName": "Meet",
+                "fieldValue": "Sara.jalal.115@gmail.com"
             },
             {
                 "fieldName": "Nationality",
@@ -137,7 +137,7 @@
             },
             {
                 "fieldName": "Email",
-                "fieldValue": "sarajalal115@gmail.com"
+                "fieldValue": "Sara.jalal.115@gmail.com"
             },
             {
                 "fieldName": "Freelance",
@@ -156,7 +156,7 @@
                 {
                     "company": "Nikaat",
                     "companyLinkedInLink": "",
-                    "position": "Product Manager",
+                    "position": "Dev team lead",
                     "duration": "Jul 2023 - present"
                 },
                 {
@@ -504,6 +504,70 @@
                 "image": "/en/images/work/thumb1.png",
                 "live": "",
                 "github": ""
+            }
+        ]
+    },
+    "contact": {
+        "title": "Let's work together",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia alias fuga iste.",
+        "selectPlaceholder": "Select a service",
+        "select": [
+            {
+                "value": "fwd",
+                "title": "Frontend Web Development"
+            },
+            {
+                "value": "wpm",
+                "title": "Web Product Management"
+            },
+            {
+                "value": "wpd",
+                "title": "Wordpress Development"
+            },
+            {
+                "value": "grd",
+                "title": "Graphic Design"
+            },
+            {
+                "value": "mtc",
+                "title": "Math Teaching"
+            }
+        ],
+        "inputs": [
+            {
+                "type": "firstname",
+                "placeholder": "Firstname"
+            },
+            {
+                "type": "lastname",
+                "placeholder": "Lastname"
+            },
+            {
+                "type": "email",
+                "placeholder": "Email address"
+            },
+            {
+                "type": "phone",
+                "placeholder": "Phone number"
+            }
+        ],
+        "textareaPlaceholder": "Type your message here...",
+        "buttonText": "Send message",
+        "info": [
+            {
+                "icon": "phone",
+                "title": "Phone",
+                "description": "(+98) 903 134 6086"
+            },
+            {
+                "icon": "email",
+                "title": "Email",
+                "description": "Sara.jalal.115@gmail.com"
+            },
+            {
+                "icon": "map",
+                "title": "Origin",
+                "description": "Tehran - Iran"
             }
         ]
     }

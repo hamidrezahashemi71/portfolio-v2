@@ -30,7 +30,7 @@ export default function Photo() {
                     }}
                 >
                     <Image
-                        src={'/images/photo.png'}
+                        src={'/images/photo.jpg'}
                         alt="photo"
                         priority
                         quality={100}

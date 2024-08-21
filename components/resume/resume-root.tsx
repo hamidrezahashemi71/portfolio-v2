@@ -319,7 +319,7 @@ export default function ResumeRoot(props: Props) {
                                                 <span className={`text-light-text/60 dark:text-dark-text/60 `}>
                                                     {fieldName}
                                                 </span>
-                                                <span className={`text-xl `}>
+                                                <span className={`text-lg `}>
                                                     {fieldValue}
                                                 </span>
                                             </li>
