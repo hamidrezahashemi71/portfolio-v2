@@ -1,7 +1,15 @@
+import WorkRoot from '@/components/work/work-root'
+import { getDictionary } from '@/lib/dictionaries'
 import React from 'react'
 
-export default function Work() {
+export default async function Work({ params: { lang } }: { params: { lang: "en" | "fa" } }) {
+    const dict = await getDictionary(lang)
+    const { projects } = dict.work
+
     return (
-        <div>Work</div>
+        <WorkRoot
+            projects={projects}
+            lang={lang}
+        />
     )
 }

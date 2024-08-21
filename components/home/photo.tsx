@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import Image from "next/image"
-import photo from '@/public/images/photo.png'
+
 export default function Photo() {
     return (
         <div className="w-full h-full relative">
@@ -30,7 +30,7 @@ export default function Photo() {
                     }}
                 >
                     <Image
-                        src={photo}
+                        src={'/images/photo.png'}
                         alt="photo"
                         priority
                         quality={100}

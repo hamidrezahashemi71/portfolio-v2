@@ -5,7 +5,5 @@ export default async function Services({ params: { lang } }: { params: { lang: "
     const dict = await getDictionary(lang)
     const { services } = dict.services
 
-    return (
-        <ServicesRoot services={services} lang={lang} />
-    )
+    return <ServicesRoot services={services} lang={lang} />
 }

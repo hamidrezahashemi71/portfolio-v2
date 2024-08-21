@@ -97,6 +97,7 @@
                 "num": "05",
                 "title": "مدرس ریاضی",
                 "description": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ.",
+                "href": "",
                 "active": false,
                 "status": "غیرفعال"
             }
@@ -213,5 +214,297 @@
             "title": "مهارت های من",
             "description": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ."
         }
+    },
+    "work": {
+        "projects": [
+            {
+                "num": "01",
+                "category": "فرانت‌اند",
+                "title": "fineql",
+                "description": "یک داشبورد مالی ساده با استفاده از GraphQL",
+                "stack": [
+                    {
+                        "name": "React"
+                    },
+                    {
+                        "name": "GraphQL"
+                    },
+                    {
+                        "name": "ApolloProvider"
+                    },
+                    {
+                        "name": "Tailwind"
+                    },
+                    {
+                        "name": "Recharts"
+                    },
+                    {
+                        "name": "ReactRouter"
+                    },
+                    {
+                        "name": "ReactLeaflet"
+                    }
+                ],
+                "image": "/images/work/thumb1.png",
+                "live": "",
+                "github": ""
+            },
+            {
+                "num": "02",
+                "category": "فرانت‌اند",
+                "title": "Blogext",
+                "description": "یک اپلیکیشن وبلاگ ساده با استفاده از Next.js",
+                "stack": [
+                    {
+                        "name": "React"
+                    },
+                    {
+                        "name": "Next"
+                    },
+                    {
+                        "name": "MaterialUI"
+                    },
+                    {
+                        "name": "RESTfulAPI"
+                    },
+                    {
+                        "name": "SWR"
+                    },
+                    {
+                        "name": "ReduxToolkit"
+                    },
+                    {
+                        "name": "TinyMCE"
+                    }
+                ],
+                "image": "/images/work/thumb1.png",
+                "live": "",
+                "github": "https://github.com/Sararmjalal/blogext"
+            },
+            {
+                "num": "03",
+                "category": "فرانت‌اند",
+                "title": "E-commerce",
+                "description": "یک اپلیکیشن تجارت الکترونیک با ویژگی‌های پایه مانند داشبورد مدیریت، داشبورد کاربر، خرید، سبد خرید و غیره.",
+                "stack": [
+                    {
+                        "name": "TypeScript"
+                    },
+                    {
+                        "name": "React"
+                    },
+                    {
+                        "name": "Next"
+                    },
+                    {
+                        "name": "ReactQuery"
+                    },
+                    {
+                        "name": "React-hook-forms"
+                    },
+                    {
+                        "name": "ReduxToolkit"
+                    },
+                    {
+                        "name": "Tailwind"
+                    }
+                ],
+                "image": "/images/work/thumb1.png",
+                "live": "",
+                "github": "https://github.com/Sararmjalal/ecommerce-final"
+            },
+            {
+                "num": "04",
+                "category": "فرانت‌اند",
+                "title": "Nikaat/landing",
+                "description": "یک کوییز ساده با استفاده از عناصر و استایل‌های ارائه‌شده توسط API که انواع مختلفی از کوییزها را از طریق URL ارائه می‌دهد.",
+                "stack": [
+                    {
+                        "name": "Typescript"
+                    },
+                    {
+                        "name": "React"
+                    },
+                    {
+                        "name": "Next"
+                    },
+                    {
+                        "name": "MaterialUI"
+                    },
+                    {
+                        "name": "SWR"
+                    },
+                    {
+                        "name": "Axios"
+                    },
+                    {
+                        "name": "ReduxToolkit"
+                    },
+                    {
+                        "name": "Wavesurfer"
+                    },
+                    {
+                        "name": "GoogleAnalytics"
+                    },
+                    {
+                        "name": "Hatjar"
+                    }
+                ],
+                "image": "/images/work/thumb1.png",
+                "live": "https://quiz.matchadiet.com?type=fit",
+                "github": "https://github.com/sararmjalal"
+            },
+            {
+                "num": "05",
+                "category": "فرانت‌اند",
+                "title": "Nikaat/home-landing",
+                "description": "صفحه اصلی استاتیک از تمامی صفحات فرود (Nikaat-landing).",
+                "stack": [
+                    {
+                        "name": "Typescript"
+                    },
+                    {
+                        "name": "React"
+                    },
+                    {
+                        "name": "Next"
+                    },
+                    {
+                        "name": "MaterialUI"
+                    },
+                    {
+                        "name": "GoogleAnalytics"
+                    }
+                ],
+                "image": "/images/work/thumb1.png",
+                "live": "https://matchadiet.com/",
+                "github": "https://github.com/sararmjalal"
+            },
+            {
+                "num": "06",
+                "category": "فرانت‌اند",
+                "title": "Nikaat/maktab-panel",
+                "description": "پنلی مرتبط با Nikaat/maktab که تمام ویژگی‌ها را فعال می‌کند.",
+                "stack": [
+                    {
+                        "name": "Javascript"
+                    },
+                    {
+                        "name": "React"
+                    },
+                    {
+                        "name": "Bootstrap"
+                    },
+                    {
+                        "name": "ReactQuery"
+                    },
+                    {
+                        "name": "ReduxToolkit"
+                    },
+                    {
+                        "name": "Webpack.config"
+                    }
+                ],
+                "image": "/images/work/thumb1.png",
+                "live": "https://panel.viracc.ir",
+                "github": "https://github.com/sararmjalal"
+            },
+            {
+                "num": "07",
+                "category": "فرانت‌اند",
+                "title": "Nikaat/maktab",
+                "description": "یک وب‌سایت آموزشی که شامل پنل‌های جداگانه برای معلمان، دانش‌آموزان و غیره می‌باشد. دانش‌آموزان ثبت‌نام‌شده می‌توانند دوره‌ها را بگذرانند، آزمون‌های آنلاین بدهند، گواهی دریافت کنند، رزومه بسازند و به دنبال کار بگردند.",
+                "stack": [
+                    {
+                        "name": "Javascript"
+                    },
+                    {
+                        "name": "React"
+                    },
+                    {
+                        "name": "Bootstrap"
+                    },
+                    {
+                        "name": "ReactQuery"
+                    },
+                    {
+                        "name": "ReduxToolkit"
+                    },
+                    {
+                        "name": "Webpack.config"
+                    }
+                ],
+                "image": "/images/work/thumb1.png",
+                "live": "https://school.viracc.ir/",
+                "github": "https://github.com/sararmjalal"
+            },
+            {
+                "num": "08",
+                "category": "فرانت‌اند",
+                "title": "Nikaat/chatfit",
+                "description": "یک کوییز ساده ساخته‌شده با استفاده از عناصر ارائه‌شده توسط API که انواع مختلفی از کوییزها را از طریق URL ارائه می‌دهد.",
+                "stack": [
+                    {
+                        "name": "Typescript"
+                    },
+                    {
+                        "name": "React"
+                    },
+                    {
+                        "name": "Next"
+                    },
+                    {
+                        "name": "Tailwind"
+                    },
+                    {
+                        "name": "Axios"
+                    },
+                    {
+                        "name": "ReactQuery"
+                    }
+                ],
+                "image": "/images/work/thumb1.png",
+                "live": "",
+                "github": "https://github.com/sararmjalal"
+            },
+            {
+                "num": "09",
+                "category": "فرانت‌اند",
+                "title": "Nikaat/panel",
+                "description": "یک پنل PWA ساده برای کاربران Nikaat/landing و Nikaat/cocofit-landing برای دسترسی به برنامه رژیم غذایی و تمرینات خود.",
+                "stack": [
+                    {
+                        "name": "Typescript"
+                    },
+                    {
+                        "name": "React"
+                    },
+                    {
+                        "name": "Next"
+                    },
+                    {
+                        "name": "NextPWA"
+                    },
+                    {
+                        "name": "Tailwind"
+                    },
+                    {
+                        "name": "Axios"
+                    },
+                    {
+                        "name": "ReactQuery"
+                    },
+                    {
+                        "name": "GOauth"
+                    },
+                    {
+                        "name": "GoogleAnalytics"
+                    }
+                ],
+                "image": "/images/work/thumb1.png",
+                "live": "https://panel.matchadiet.com/",
+                "github": "https://github.com/sararmjalal"
+            }
+        ]
     }
 }

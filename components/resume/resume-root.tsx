@@ -165,7 +165,7 @@ export default function ResumeRoot(props: Props) {
                 <Tabs
                     dir={lang === 'en' ? 'ltr' : 'rtl'}
                     defaultValue="experience"
-                    className="flex flex-col xl:flex-row gap-[60px]"
+                    className="flex flex-col xl:flex-row gap-[60px] py-6"
                 >
                     <TabsList className={`flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6 `}>
                         <TabsTrigger value="experience">{titles.experience}</TabsTrigger>
@@ -266,30 +266,33 @@ export default function ResumeRoot(props: Props) {
                                 <p className="max-w-[600px] text-light-text/60 dark:text-dark-text/60 mx-auto xl:mx-0">
                                     {skills.description}
                                 </p>
-                                <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px]">
-                                    {skillList.map(({ icon, name }) => {
-                                        return (
-                                            <li
-                                                key={name}
-                                            >
-                                                <TooltipProvider delayDuration={100}>
-                                                    <Tooltip>
-                                                        <TooltipTrigger className="w-full h-[150px] bg-light-secondary/60 dark:bg-dark-secondary/30 rounded-xl flex justify-center items-center group">
-                                                            <div className="text-6xl group-hover:text-light-accent group-hover:dark:text-dark-accent transition-all duration-300">
-                                                                {icon}
-                                                            </div>
-                                                        </TooltipTrigger>
-                                                        <TooltipContent>
-                                                            <p className="capitalize">
-                                                                {name}
-                                                            </p>
-                                                        </TooltipContent>
-                                                    </Tooltip>
-                                                </TooltipProvider>
-                                            </li>
-                                        )
-                                    })}
-                                </ul>
+                                <ScrollArea className="h-[480px]">
+
+                                    <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px] ">
+                                        {skillList.map(({ icon, name }) => {
+                                            return (
+                                                <li
+                                                    key={name}
+                                                >
+                                                    <TooltipProvider delayDuration={100}>
+                                                        <Tooltip>
+                                                            <TooltipTrigger className="w-full h-[150px] bg-light-secondary/60 dark:bg-dark-secondary/30 rounded-xl flex justify-center items-center group">
+                                                                <div className="text-6xl group-hover:text-light-accent group-hover:dark:text-dark-accent transition-all duration-300">
+                                                                    {icon}
+                                                                </div>
+                                                            </TooltipTrigger>
+                                                            <TooltipContent>
+                                                                <p className="capitalize">
+                                                                    {name}
+                                                                </p>
+                                                            </TooltipContent>
+                                                        </Tooltip>
+                                                    </TooltipProvider>
+                                                </li>
+                                            )
+                                        })}
+                                    </ul>
+                                </ScrollArea>
                             </div>
                         </TabsContent>
                         <TabsContent
