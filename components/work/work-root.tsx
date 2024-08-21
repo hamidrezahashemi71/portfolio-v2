@@ -10,6 +10,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { Locale } from "@/i18n.config"
 import { Swiper as SwiperType } from "swiper/types"
+import WorkSliderBtns from "./work-slider-btns"
 
 type Props = {
     projects: {
@@ -118,7 +119,7 @@ export default function WorkRoot(props: Props) {
                                         className="w-full"
                                     >
                                         <div className="h-[460px] relative group flex justify-center items-center bg-pink-50/20">
-                                            <div></div>
+                                            <div className="absolute top-0 bottom-0 w-full h-full bg-black/10 z-10" />
                                             <div className="relative w-full h-full">
                                                 <Image
                                                     loader={loaderProp}
@@ -132,6 +133,7 @@ export default function WorkRoot(props: Props) {
                                     </SwiperSlide>
                                 )
                             })}
+                            <WorkSliderBtns />
                         </Swiper>
                     </div>
                 </div>

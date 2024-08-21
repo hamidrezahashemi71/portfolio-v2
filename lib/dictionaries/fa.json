@@ -218,43 +218,139 @@
     "work": {
         "projects": [
             {
-                "num": "01",
+                "num": "09",
                 "category": "فرانت‌اند",
-                "title": "fineql",
-                "description": "یک داشبورد مالی ساده با استفاده از GraphQL",
+                "title": "Nikaat/panel",
+                "description": "یک پنل PWA ساده برای کاربران Nikaat/landing و Nikaat/cocofit-landing برای دسترسی به برنامه رژیم غذایی و تمرینات خود.",
                 "stack": [
+                    {
+                        "name": "Typescript"
+                    },
                     {
                         "name": "React"
                     },
                     {
-                        "name": "GraphQL"
+                        "name": "Next"
                     },
                     {
-                        "name": "ApolloProvider"
+                        "name": "NextPWA"
                     },
                     {
                         "name": "Tailwind"
                     },
                     {
-                        "name": "Recharts"
+                        "name": "Axios"
                     },
                     {
-                        "name": "ReactRouter"
+                        "name": "ReactQuery"
                     },
                     {
-                        "name": "ReactLeaflet"
+                        "name": "GOauth"
+                    },
+                    {
+                        "name": "GoogleAnalytics"
+                    }
+                ],
+                "image": "/images/work/thumb1.png",
+                "live": "https://panel.matchadiet.com/",
+                "github": "https://github.com/sararmjalal"
+            },
+            {
+                "num": "08",
+                "category": "فرانت‌اند",
+                "title": "Nikaat/chatfit",
+                "description": "یک کوییز ساده ساخته‌شده با استفاده از عناصر ارائه‌شده توسط API که انواع مختلفی از کوییزها را از طریق URL ارائه می‌دهد.",
+                "stack": [
+                    {
+                        "name": "Typescript"
+                    },
+                    {
+                        "name": "React"
+                    },
+                    {
+                        "name": "Next"
+                    },
+                    {
+                        "name": "Tailwind"
+                    },
+                    {
+                        "name": "Axios"
+                    },
+                    {
+                        "name": "ReactQuery"
                     }
                 ],
                 "image": "/images/work/thumb1.png",
                 "live": "",
-                "github": ""
+                "github": "https://github.com/sararmjalal"
             },
             {
-                "num": "02",
+                "num": "07",
                 "category": "فرانت‌اند",
-                "title": "Blogext",
-                "description": "یک اپلیکیشن وبلاگ ساده با استفاده از Next.js",
+                "title": "Nikaat/maktab",
+                "description": "یک وب‌سایت آموزشی که شامل پنل‌های جداگانه برای معلمان، دانش‌آموزان و غیره می‌باشد. دانش‌آموزان ثبت‌نام‌شده می‌توانند دوره‌ها را بگذرانند، آزمون‌های آنلاین بدهند، گواهی دریافت کنند، رزومه بسازند و به دنبال کار بگردند.",
                 "stack": [
+                    {
+                        "name": "Javascript"
+                    },
+                    {
+                        "name": "React"
+                    },
+                    {
+                        "name": "Bootstrap"
+                    },
+                    {
+                        "name": "ReactQuery"
+                    },
+                    {
+                        "name": "ReduxToolkit"
+                    },
+                    {
+                        "name": "Webpack.config"
+                    }
+                ],
+                "image": "/images/work/thumb1.png",
+                "live": "https://school.viracc.ir/",
+                "github": "https://github.com/sararmjalal"
+            },
+            {
+                "num": "06",
+                "category": "فرانت‌اند",
+                "title": "Nikaat/maktab-panel",
+                "description": "پنلی مرتبط با Nikaat/maktab که تمام ویژگی‌ها را فعال می‌کند.",
+                "stack": [
+                    {
+                        "name": "Javascript"
+                    },
+                    {
+                        "name": "React"
+                    },
+                    {
+                        "name": "Bootstrap"
+                    },
+                    {
+                        "name": "ReactQuery"
+                    },
+                    {
+                        "name": "ReduxToolkit"
+                    },
+                    {
+                        "name": "Webpack.config"
+                    }
+                ],
+                "image": "/images/work/thumb1.png",
+                "live": "https://panel.viracc.ir",
+                "github": "https://github.com/sararmjalal"
+            },
+            {
+                "num": "05",
+                "category": "فرانت‌اند",
+                "title": "Nikaat/home-landing",
+                "description": "صفحه اصلی استاتیک از تمامی صفحات فرود (Nikaat-landing).",
+                "stack": [
+                    {
+                        "name": "Typescript"
+                    },
                     {
                         "name": "React"
                     },
@@ -265,53 +361,12 @@
                         "name": "MaterialUI"
                     },
                     {
-                        "name": "RESTfulAPI"
-                    },
-                    {
-                        "name": "SWR"
-                    },
-                    {
-                        "name": "ReduxToolkit"
-                    },
-                    {
-                        "name": "TinyMCE"
+                        "name": "GoogleAnalytics"
                     }
                 ],
                 "image": "/images/work/thumb1.png",
-                "live": "",
-                "github": "https://github.com/Sararmjalal/blogext"
-            },
-            {
-                "num": "03",
-                "category": "فرانت‌اند",
-                "title": "E-commerce",
-                "description": "یک اپلیکیشن تجارت الکترونیک با ویژگی‌های پایه مانند داشبورد مدیریت، داشبورد کاربر، خرید، سبد خرید و غیره.",
-                "stack": [
-                    {
-                        "name": "TypeScript"
-                    },
-                    {
-                        "name": "React"
-                    },
-                    {
-                        "name": "Next"
-                    },
-                    {
-                        "name": "ReactQuery"
-                    },
-                    {
-                        "name": "React-hook-forms"
-                    },
-                    {
-                        "name": "ReduxToolkit"
-                    },
-                    {
-                        "name": "Tailwind"
-                    }
-                ],
-                "image": "/images/work/thumb1.png",
-                "live": "",
-                "github": "https://github.com/Sararmjalal/ecommerce-final"
+                "live": "https://matchadiet.com/",
+                "github": "https://github.com/sararmjalal"
             },
             {
                 "num": "04",
@@ -355,14 +410,43 @@
                 "github": "https://github.com/sararmjalal"
             },
             {
-                "num": "05",
+                "num": "03",
                 "category": "فرانت‌اند",
-                "title": "Nikaat/home-landing",
-                "description": "صفحه اصلی استاتیک از تمامی صفحات فرود (Nikaat-landing).",
+                "title": "E-commerce",
+                "description": "یک اپلیکیشن تجارت الکترونیک با ویژگی‌های پایه مانند داشبورد مدیریت، داشبورد کاربر، خرید، سبد خرید و غیره.",
                 "stack": [
                     {
-                        "name": "Typescript"
+                        "name": "TypeScript"
                     },
+                    {
+                        "name": "React"
+                    },
+                    {
+                        "name": "Next"
+                    },
+                    {
+                        "name": "ReactQuery"
+                    },
+                    {
+                        "name": "React-hook-forms"
+                    },
+                    {
+                        "name": "ReduxToolkit"
+                    },
+                    {
+                        "name": "Tailwind"
+                    }
+                ],
+                "image": "/images/work/thumb1.png",
+                "live": "",
+                "github": "https://github.com/Sararmjalal/ecommerce-final"
+            },
+            {
+                "num": "02",
+                "category": "فرانت‌اند",
+                "title": "Blogext",
+                "description": "یک اپلیکیشن وبلاگ ساده با استفاده از Next.js",
+                "stack": [
                     {
                         "name": "React"
                     },
@@ -373,137 +457,53 @@
                         "name": "MaterialUI"
                     },
                     {
-                        "name": "GoogleAnalytics"
-                    }
-                ],
-                "image": "/images/work/thumb1.png",
-                "live": "https://matchadiet.com/",
-                "github": "https://github.com/sararmjalal"
-            },
-            {
-                "num": "06",
-                "category": "فرانت‌اند",
-                "title": "Nikaat/maktab-panel",
-                "description": "پنلی مرتبط با Nikaat/maktab که تمام ویژگی‌ها را فعال می‌کند.",
-                "stack": [
-                    {
-                        "name": "Javascript"
+                        "name": "RESTfulAPI"
                     },
                     {
-                        "name": "React"
-                    },
-                    {
-                        "name": "Bootstrap"
-                    },
-                    {
-                        "name": "ReactQuery"
+                        "name": "SWR"
                     },
                     {
                         "name": "ReduxToolkit"
                     },
                     {
-                        "name": "Webpack.config"
-                    }
-                ],
-                "image": "/images/work/thumb1.png",
-                "live": "https://panel.viracc.ir",
-                "github": "https://github.com/sararmjalal"
-            },
-            {
-                "num": "07",
-                "category": "فرانت‌اند",
-                "title": "Nikaat/maktab",
-                "description": "یک وب‌سایت آموزشی که شامل پنل‌های جداگانه برای معلمان، دانش‌آموزان و غیره می‌باشد. دانش‌آموزان ثبت‌نام‌شده می‌توانند دوره‌ها را بگذرانند، آزمون‌های آنلاین بدهند، گواهی دریافت کنند، رزومه بسازند و به دنبال کار بگردند.",
-                "stack": [
-                    {
-                        "name": "Javascript"
-                    },
-                    {
-                        "name": "React"
-                    },
-                    {
-                        "name": "Bootstrap"
-                    },
-                    {
-                        "name": "ReactQuery"
-                    },
-                    {
-                        "name": "ReduxToolkit"
-                    },
-                    {
-                        "name": "Webpack.config"
-                    }
-                ],
-                "image": "/images/work/thumb1.png",
-                "live": "https://school.viracc.ir/",
-                "github": "https://github.com/sararmjalal"
-            },
-            {
-                "num": "08",
-                "category": "فرانت‌اند",
-                "title": "Nikaat/chatfit",
-                "description": "یک کوییز ساده ساخته‌شده با استفاده از عناصر ارائه‌شده توسط API که انواع مختلفی از کوییزها را از طریق URL ارائه می‌دهد.",
-                "stack": [
-                    {
-                        "name": "Typescript"
-                    },
-                    {
-                        "name": "React"
-                    },
-                    {
-                        "name": "Next"
-                    },
-                    {
-                        "name": "Tailwind"
-                    },
-                    {
-                        "name": "Axios"
-                    },
-                    {
-                        "name": "ReactQuery"
+                        "name": "TinyMCE"
                     }
                 ],
                 "image": "/images/work/thumb1.png",
                 "live": "",
-                "github": "https://github.com/sararmjalal"
+                "github": "https://github.com/Sararmjalal/blogext"
             },
             {
-                "num": "09",
+                "num": "01",
                 "category": "فرانت‌اند",
-                "title": "Nikaat/panel",
-                "description": "یک پنل PWA ساده برای کاربران Nikaat/landing و Nikaat/cocofit-landing برای دسترسی به برنامه رژیم غذایی و تمرینات خود.",
+                "title": "fineql",
+                "description": "یک داشبورد مالی ساده با استفاده از GraphQL",
                 "stack": [
-                    {
-                        "name": "Typescript"
-                    },
                     {
                         "name": "React"
                     },
                     {
-                        "name": "Next"
+                        "name": "GraphQL"
                     },
                     {
-                        "name": "NextPWA"
+                        "name": "ApolloProvider"
                     },
                     {
                         "name": "Tailwind"
                     },
                     {
-                        "name": "Axios"
+                        "name": "Recharts"
                     },
                     {
-                        "name": "ReactQuery"
+                        "name": "ReactRouter"
                     },
                     {
-                        "name": "GOauth"
-                    },
-                    {
-                        "name": "GoogleAnalytics"
+                        "name": "ReactLeaflet"
                     }
                 ],
                 "image": "/images/work/thumb1.png",
-                "live": "https://panel.matchadiet.com/",
-                "github": "https://github.com/sararmjalal"
+                "live": "",
+                "github": ""
             }
         ]
     }

@@ -218,43 +218,139 @@
     "work": {
         "projects": [
             {
-                "num": "01",
+                "num": "09",
                 "category": "frontend",
-                "title": "fineql",
-                "description": "A simpAe finance Dashboard using GraphQL",
+                "title": "Nikaat/panel",
+                "description": "A simple pwa panel for Nikaat/landing and Nikaat/cocofit-landing users to have access to their diet and workout program.",
                 "stack": [
+                    {
+                        "name": "Typescript"
+                    },
                     {
                         "name": "React"
                     },
                     {
-                        "name": "GraphQL"
+                        "name": "Next"
                     },
                     {
-                        "name": "ApolloProvider"
+                        "name": "NextPWA"
                     },
                     {
                         "name": "Tailwind"
                     },
                     {
-                        "name": "Recharts"
+                        "name": "Axios"
                     },
                     {
-                        "name": "ReactRouter"
+                        "name": "ReactQuery"
                     },
                     {
-                        "name": "ReactLeaflet"
+                        "name": "GOauth"
+                    },
+                    {
+                        "name": "GoogleAnalytics"
+                    }
+                ],
+                "image": "/images/work/thumb1.png",
+                "live": "https://panel.matchadiet.com/",
+                "github": "https://github.com/sararmjalal"
+            },
+            {
+                "num": "08",
+                "category": "frontend",
+                "title": "Nikaat/chatfit",
+                "description": "A simple styled bot quiz built with elements provided by the api which has different types provided in url ",
+                "stack": [
+                    {
+                        "name": "Typescript"
+                    },
+                    {
+                        "name": "React"
+                    },
+                    {
+                        "name": "Next"
+                    },
+                    {
+                        "name": "Tailwind"
+                    },
+                    {
+                        "name": "Axios"
+                    },
+                    {
+                        "name": "ReactQuery"
                     }
                 ],
                 "image": "/images/work/thumb1.png",
                 "live": "",
-                "github": ""
+                "github": "https://github.com/sararmjalal"
             },
             {
-                "num": "02",
+                "num": "07",
                 "category": "frontend",
-                "title": "Blogext",
-                "description": "A simpAe bAog app using Nex..js",
+                "title": "Nikaat/maktab",
+                "description": "An educational website which includes separate panels for teachers, students, etc. Reistered students can take courses, take online tests, acquire certificate, build resume and start lookin for a job.",
                 "stack": [
+                    {
+                        "name": "Javascript"
+                    },
+                    {
+                        "name": "React"
+                    },
+                    {
+                        "name": "Bootstrap"
+                    },
+                    {
+                        "name": "ReactQuery"
+                    },
+                    {
+                        "name": "ReduxToolkit"
+                    },
+                    {
+                        "name": "Webpack.config"
+                    }
+                ],
+                "image": "/images/work/thumb1.png",
+                "live": "https://school.viracc.ir/",
+                "github": "https://github.com/sararmjalal"
+            },
+            {
+                "num": "06",
+                "category": "frontend",
+                "title": "Nikaat/maktab-panel",
+                "description": "Panel related to Nikaat/maktab making all that features happen",
+                "stack": [
+                    {
+                        "name": "Javascript"
+                    },
+                    {
+                        "name": "React"
+                    },
+                    {
+                        "name": "Bootstrap"
+                    },
+                    {
+                        "name": "ReactQuery"
+                    },
+                    {
+                        "name": "ReduxToolkit"
+                    },
+                    {
+                        "name": "Webpack.config"
+                    }
+                ],
+                "image": "/images/work/thumb1.png",
+                "live": "https://panel.viracc.ir",
+                "github": "https://github.com/sararmjalal"
+            },
+            {
+                "num": "05",
+                "category": "frontend",
+                "title": "Nikaat/home-landing",
+                "description": "Static home page of all landings (nikaat-landing).",
+                "stack": [
+                    {
+                        "name": "Typescript"
+                    },
                     {
                         "name": "React"
                     },
@@ -265,53 +361,12 @@
                         "name": "MaterialUI"
                     },
                     {
-                        "name": "RESTfulAPI"
-                    },
-                    {
-                        "name": "SWR"
-                    },
-                    {
-                        "name": "ReduxToolkit"
-                    },
-                    {
-                        "name": "TinyMCE"
+                        "name": "GoogleAnalytics"
                     }
                 ],
                 "image": "/images/work/thumb1.png",
-                "live": "",
-                "github": "https://github.com/Sararmjalal/blogext"
-            },
-            {
-                "num": "03",
-                "category": "frontend",
-                "title": "E-commerce",
-                "description": "An E-commerce app with basic features like admin dashboard, user dashboard, shopping, card, etc.",
-                "stack": [
-                    {
-                        "name": "TypeScript"
-                    },
-                    {
-                        "name": "React"
-                    },
-                    {
-                        "name": "Next"
-                    },
-                    {
-                        "name": "ReactQuery"
-                    },
-                    {
-                        "name": "React-hook-forms"
-                    },
-                    {
-                        "name": "ReduxToolkit"
-                    },
-                    {
-                        "name": "Tailwind"
-                    }
-                ],
-                "image": "/images/work/thumb1.png",
-                "live": "",
-                "github": "https://github.com/Sararmjalal/ecommerce-final"
+                "live": "https://matchadiet.com/",
+                "github": "https://github.com/sararmjalal"
             },
             {
                 "num": "04",
@@ -355,14 +410,43 @@
                 "github": "https://github.com/sararmjalal"
             },
             {
-                "num": "05",
+                "num": "03",
                 "category": "frontend",
-                "title": "Nikaat/home-landing",
-                "description": "Static home page of all landings (nikaat-landing).",
+                "title": "E-commerce",
+                "description": "An E-commerce app with basic features like admin dashboard, user dashboard, shopping, card, etc.",
                 "stack": [
                     {
-                        "name": "Typescript"
+                        "name": "TypeScript"
                     },
+                    {
+                        "name": "React"
+                    },
+                    {
+                        "name": "Next"
+                    },
+                    {
+                        "name": "ReactQuery"
+                    },
+                    {
+                        "name": "React-hook-forms"
+                    },
+                    {
+                        "name": "ReduxToolkit"
+                    },
+                    {
+                        "name": "Tailwind"
+                    }
+                ],
+                "image": "/images/work/thumb1.png",
+                "live": "",
+                "github": "https://github.com/Sararmjalal/ecommerce-final"
+            },
+            {
+                "num": "02",
+                "category": "frontend",
+                "title": "Blogext",
+                "description": "A simpAe bAog app using Nex..js",
+                "stack": [
                     {
                         "name": "React"
                     },
@@ -373,137 +457,53 @@
                         "name": "MaterialUI"
                     },
                     {
-                        "name": "GoogleAnalytics"
-                    }
-                ],
-                "image": "/images/work/thumb1.png",
-                "live": "https://matchadiet.com/",
-                "github": "https://github.com/sararmjalal"
-            },
-            {
-                "num": "06",
-                "category": "frontend",
-                "title": "Nikaat/maktab-panel",
-                "description": "Panel related to Nikaat/maktab making all that features happen",
-                "stack": [
-                    {
-                        "name": "Javascript"
+                        "name": "RESTfulAPI"
                     },
                     {
-                        "name": "React"
-                    },
-                    {
-                        "name": "Bootstrap"
-                    },
-                    {
-                        "name": "ReactQuery"
+                        "name": "SWR"
                     },
                     {
                         "name": "ReduxToolkit"
                     },
                     {
-                        "name": "Webpack.config"
-                    }
-                ],
-                "image": "/images/work/thumb1.png",
-                "live": "https://panel.viracc.ir",
-                "github": "https://github.com/sararmjalal"
-            },
-            {
-                "num": "07",
-                "category": "frontend",
-                "title": "Nikaat/maktab",
-                "description": "An educational website which includes separate panels for teachers, students, etc. Reistered students can take courses, take online tests, acquire certificate, build resume and start lookin for a job.",
-                "stack": [
-                    {
-                        "name": "Javascript"
-                    },
-                    {
-                        "name": "React"
-                    },
-                    {
-                        "name": "Bootstrap"
-                    },
-                    {
-                        "name": "ReactQuery"
-                    },
-                    {
-                        "name": "ReduxToolkit"
-                    },
-                    {
-                        "name": "Webpack.config"
-                    }
-                ],
-                "image": "/images/work/thumb1.png",
-                "live": "https://school.viracc.ir/",
-                "github": "https://github.com/sararmjalal"
-            },
-            {
-                "num": "08",
-                "category": "frontend",
-                "title": "Nikaat/chatfit",
-                "description": "A simple styled bot quiz built with elements provided by the api which has different types provided in url ",
-                "stack": [
-                    {
-                        "name": "Typescript"
-                    },
-                    {
-                        "name": "React"
-                    },
-                    {
-                        "name": "Next"
-                    },
-                    {
-                        "name": "Tailwind"
-                    },
-                    {
-                        "name": "Axios"
-                    },
-                    {
-                        "name": "ReactQuery"
+                        "name": "TinyMCE"
                     }
                 ],
                 "image": "/images/work/thumb1.png",
                 "live": "",
-                "github": "https://github.com/sararmjalal"
+                "github": "https://github.com/Sararmjalal/blogext"
             },
             {
-                "num": "09",
+                "num": "01",
                 "category": "frontend",
-                "title": "Nikaat/panel",
-                "description": "A simple pwa panel for Nikaat/landing and Nikaat/cocofit-landing users to have access to their diet and workout program.",
+                "title": "fineql",
+                "description": "A simpAe finance Dashboard using GraphQL",
                 "stack": [
-                    {
-                        "name": "Typescript"
-                    },
                     {
                         "name": "React"
                     },
                     {
-                        "name": "Next"
+                        "name": "GraphQL"
                     },
                     {
-                        "name": "NextPWA"
+                        "name": "ApolloProvider"
                     },
                     {
                         "name": "Tailwind"
                     },
                     {
-                        "name": "Axios"
+                        "name": "Recharts"
                     },
                     {
-                        "name": "ReactQuery"
+                        "name": "ReactRouter"
                     },
                     {
-                        "name": "GOauth"
-                    },
-                    {
-                        "name": "GoogleAnalytics"
+                        "name": "ReactLeaflet"
                     }
                 ],
-                "image": "/images/work/thumb1.png",
-                "live": "https://panel.matchadiet.com/",
-                "github": "https://github.com/sararmjalal"
+                "image": "/en/images/work/thumb1.png",
+                "live": "",
+                "github": ""
             }
         ]
     }
