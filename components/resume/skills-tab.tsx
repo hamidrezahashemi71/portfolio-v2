@@ -2,6 +2,7 @@ import React from 'react'
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { skillList } from "@/lib/constants/skill-list"
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
+import Link from 'next/link'
 
 export default function SkillsTab(props: ResumeSkillsProps) {
 
@@ -17,7 +18,7 @@ export default function SkillsTab(props: ResumeSkillsProps) {
             </p>
             <ScrollArea className="h-[480px]">
                 <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px] ">
-                    {skillList.map(({ icon, name }) => {
+                    {skillList.map(({ icon, name, link }) => {
                         return (
                             <li
                                 key={name}
@@ -25,9 +26,11 @@ export default function SkillsTab(props: ResumeSkillsProps) {
                                 <TooltipProvider delayDuration={100}>
                                     <Tooltip>
                                         <TooltipTrigger className="w-full h-[150px] bg-light-secondary/60 dark:bg-dark-secondary/30 rounded-xl flex justify-center items-center group">
-                                            <div className="text-6xl group-hover:text-light-accent group-hover:dark:text-dark-accent transition-all duration-300">
-                                                {icon}
-                                            </div>
+                                            <Link href={link} target='_blank'>
+                                                <div className="text-6xl group-hover:text-light-accent group-hover:dark:text-dark-accent transition-all duration-300">
+                                                    {icon}
+                                                </div>
+                                            </Link>
                                         </TooltipTrigger>
                                         <TooltipContent>
                                             <p className="capitalize">

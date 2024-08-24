@@ -46,8 +46,8 @@ export default function Photo() {
                     xmlns='http://www.w3.org/2000/svg'
                 >
                     <motion.circle
-                        cx='255'
-                        cy='250'
+                        cx='250'
+                        cy='248'
                         r='260'
                         className={'stroke-light-accent dark:stroke-dark-accent'}
                         strokeWidth='4'

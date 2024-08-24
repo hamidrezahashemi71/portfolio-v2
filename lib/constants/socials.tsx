@@ -15,6 +15,6 @@ export const socials = [
     },
     {
         icon: <FaWhatsapp />,
-        path: 'https://api.whatsapp.com/send?phone=989195892013'
+        path: 'https://api.whatsapp.com/send?phone=989031346086'
     }
 ]

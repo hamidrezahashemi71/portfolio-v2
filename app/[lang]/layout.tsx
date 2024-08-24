@@ -2,10 +2,10 @@ import "./globals.css"
 import { dana, jet } from "@/lib"
 import { i18n } from "@/i18n.config"
 import { getDictionary } from "@/lib/dictionaries"
-import Header from "@/components/ui/shared/header/header"
+import Header from "@/components/shared/header/header"
 import { ThemeProvider } from "@/lib/providers/theme-provider"
-import PageTransition from "@/components/ui/shared/transition/page-transition"
-import StairTransition from "@/components/ui/shared/transition/stair-transition"
+import PageTransition from "@/components/shared/transition/page-transition"
+import StairTransition from "@/components/shared/transition/stair-transition"
 
 export async function generateMetadata(props: PageProp) {
 

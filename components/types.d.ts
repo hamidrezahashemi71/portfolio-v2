@@ -102,54 +102,10 @@ type ResumeRootProps = {
     lang: Locale
 }
 
-type ResumeExperienceProps = {
-    experience: {
-        icon: string
-        title: string
-        description: string
-        items: {
-            company: string
-            companyLinkedInLink: string
-            position: string
-            duration: string
-        }[]
-    }
-    lang: Locale
-}
-
-type ResumeEducationProps = {
-    education: {
-        icon: string
-        title: string
-        description: string
-        items: {
-            Institution: string
-            companyLinkedInLink: string
-            position: string
-            duration: string
-        }[]
-    }
-    lang: Locale
-}
-
-type ResumeSkillsProps = {
-    skills: {
-        title: string
-        description: string
-    }
-}
-
-type ResumeAboutProps = {
-    about: {
-        title: string
-        description: string
-    }
-    info: {
-        fieldName: string
-        fieldValue: string
-    }[]
-    lang: Locale
-}
+type ResumeExperienceProps = Pick<ResumeRootProps, 'experience' | 'lang'>
+type ResumeEducationProps = Pick<ResumeRootProps, 'education' | 'lang'>
+type ResumeSkillsProps = Pick<ResumeRootProps, 'skills'>
+type ResumeAboutProps = Pick<ResumeRootProps, 'about' | 'info' | 'lang'>
 
 // WORK ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
 type WorkRootProps = {

@@ -1,3 +1,4 @@
+import Link from "next/link"
 import Photo from "@/components/home/photo"
 import Stats from "@/components/home/stats"
 import { FiDownload } from "react-icons/fi"
@@ -35,9 +36,9 @@ export default async function Home(props: PageProp) {
                 size={'lg'}
                 className="uppercase flex items-center gap-2"
               >
-                <span>
+                <Link href={'https://biaupload.com/do.php?filename=org-d9f5b6846eb41.pdf'} target="_blank">
                   {downloadcv}
-                </span>
+                </Link>
                 <FiDownload className="text-2xl " />
               </Button>
               <div className="mb-8 xl:mb-0">
