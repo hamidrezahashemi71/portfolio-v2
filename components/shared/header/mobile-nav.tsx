@@ -33,7 +33,7 @@ export default function MobileNav(props: MobileNavProps) {
                                 href={path}
                                 key={name}
                                 className={`
-                                     ${(`/${lang}${path}` === pathname || `${path}${lang}` === pathname) && 'text-light-accent dark:text-dark-accent border-b-2 border-light-accent dark:border-dark-accent'}
+                                     ${(`${path}` === pathname || `${path}${lang}` === pathname) && 'text-light-accent dark:text-dark-accent border-b-2 border-light-accent dark:border-dark-accent'}
                                     text-xl capitalize hover:text-light-accent dark:hover:text-dark-accent transition-all
                                     `}
                             >
