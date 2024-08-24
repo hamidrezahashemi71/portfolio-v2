@@ -1,14 +1,14 @@
 'use client'
 
 import Link from 'next/link'
-import { usePathname } from 'next/navigation'
-
 import { i18n } from '@/i18n.config'
+import { FaGlobe } from "react-icons/fa"
+import { usePathname } from 'next/navigation'
 import { Button } from '@/components/ui/button'
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
-import { FaGlobe } from "react-icons/fa";
 
 export default function LocaleSwitcher() {
+
     const pathName = usePathname()
 
     const redirectedPathName = (locale: string) => {
@@ -40,7 +40,6 @@ export default function LocaleSwitcher() {
                     )
                 })}
             </DropdownMenuContent>
-
         </DropdownMenu>
     )
 }

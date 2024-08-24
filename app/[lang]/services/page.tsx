@@ -1,7 +1,9 @@
-import ServicesRoot from "@/components/services/services-root";
-import { getDictionary } from "@/lib/dictionaries";
+import { getDictionary } from "@/lib/dictionaries"
+import ServicesRoot from "@/components/services/services-root"
 
-export default async function Services({ params: { lang } }: { params: { lang: "en" | "fa" } }) {
+export default async function Services(props: PageProp) {
+
+    const { params: { lang } } = props
     const dict = await getDictionary(lang)
     const { services } = dict.services
 

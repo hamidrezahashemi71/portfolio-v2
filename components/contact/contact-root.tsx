@@ -1,36 +1,15 @@
 "use client"
 
-import { Button } from '@/components/ui/button'
-import { Input } from '@/components/ui/input'
-import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrigger, SelectValue } from '@/components/ui/select'
-import { Textarea } from '@/components/ui/textarea'
-import { Locale } from '@/i18n.config'
 import { motion } from 'framer-motion'
-import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
+import { Input } from '@/components/ui/input'
+import { Button } from '@/components/ui/button'
+import { Textarea } from '@/components/ui/textarea'
+import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa"
+import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrigger, SelectValue } from '@/components/ui/select'
 
-type Props = {
-    lang: Locale
-    title: string
-    description: string
-    selectPlaceholder: string
-    select: {
-        value: string
-        title: string
-    }[]
-    inputs: {
-        type: string
-        placeholder: string
-    }[]
-    textareaPlaceholder: string
-    buttonText: string
-    info: {
-        icon: string
-        title: string
-        description: string
-    }[]
-}
 
-export default function ContactRoot(props: Props) {
+export default function ContactRoot(props: ContactRootProps) {
+
     const { lang, title, info, description, inputs, selectPlaceholder, select, textareaPlaceholder, buttonText } = props
 
     const iconMap = {

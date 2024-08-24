@@ -1,18 +1,10 @@
 'use client'
 
-import { Locale } from "@/i18n.config"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 
-type Props = {
-    links: {
-        name: string
-        path: string
-    }[]
-    lang: Locale
-}
+export default function Nav(props: DesktopNavProps) {
 
-export default function Nav(props: Props) {
     const { links, lang } = props
     const pathname = usePathname()
 

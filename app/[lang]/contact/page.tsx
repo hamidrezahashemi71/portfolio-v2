@@ -1,9 +1,12 @@
-import ContactRoot from '@/components/contact/contact-root'
 import { getDictionary } from '@/lib/dictionaries'
+import ContactRoot from '@/components/contact/contact-root'
 
-export default async function Contact({ params: { lang } }: { params: { lang: "en" | "fa" } }) {
+export default async function Contact(props: PageProp) {
+
+    const { params: { lang } } = props
     const dict = await getDictionary(lang)
     const { info, title, description, inputs, selectPlaceholder, select, textareaPlaceholder, buttonText } = dict.contact
+
     return (
         <ContactRoot
             lang={lang}

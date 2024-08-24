@@ -1,14 +1,15 @@
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { getDictionary } from "@/lib/dictionaries"
-import { Locale } from "@/i18n.config"
 import Nav from "./nav"
+import Logo from "./logo"
+import Link from "next/link"
+import MobileNav from "./mobile-nav"
 import { ModeToggle } from "./mode-toggle"
 import LocaleSwitcher from "./locale-toggle"
-import MobileNav from "./mobile-nav"
-import Logo from "./logo"
+import { Button } from "@/components/ui/button"
+import { getDictionary } from "@/lib/dictionaries"
 
-export default async function Header({ lang }: { lang: Locale }) {
+export default async function Header(props: LangProp) {
+
+    const { lang } = props
     const dict = await getDictionary(lang)
     const { title, hireMe, links, mode } = dict.header
 

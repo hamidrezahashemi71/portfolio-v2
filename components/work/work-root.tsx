@@ -1,42 +1,28 @@
 "use client"
 
-import { motion } from "framer-motion"
-import React, { useState } from "react"
-import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
-import { BsArrowUpRight, BsArrowUpLeft, BsGithub } from "react-icons/bs";
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import Link from "next/link"
 import Image from "next/image"
-import { Locale } from "@/i18n.config"
-import { Swiper as SwiperType } from "swiper/types"
+import { motion } from "framer-motion"
+import React, { useState } from "react"
 import WorkSliderBtns from "./work-slider-btns"
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Swiper as SwiperType } from "swiper/types"
+import { BsArrowUpRight, BsArrowUpLeft, BsGithub } from "react-icons/bs"
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
 
-type Props = {
-    projects: {
-        num: string;
-        category: string;
-        title: string;
-        description: string;
-        stack: {
-            name: string;
-        }[];
-        image: string;
-        live: string;
-        github: string;
-    }[]
-    lang: Locale
-}
+export default function WorkRoot(props: WorkRootProps) {
 
-export default function WorkRoot(props: Props) {
-    const { projects, lang } = props
+    const { projects, liveProjectTitle, gitRepoTitle, lang } = props
     const [project, setProject] = useState(projects[0])
 
     const handleSlideChange = (swiper: SwiperType) => {
         const currentIndex = swiper.activeIndex
         setProject(projects[currentIndex])
     }
+
     const loaderProp = ({ src }: { src: string }) => src
+
     return (
         <motion.div
             initial={{ opacity: 0 }}
@@ -85,7 +71,7 @@ export default function WorkRoot(props: Props) {
                                                 {lang === 'en' ? <BsArrowUpRight className="text-light-text dark:text-dark-text text-3xl group-hover:text-light-accent group-hover:dark:text-dark-accent transition-all duration-500" /> : <BsArrowUpLeft className="text-light-text dark:text-dark-text text-3xl group-hover:text-light-accent group-hover:dark:text-dark-accent transition-all duration-500" />}
                                             </TooltipTrigger>
                                             <TooltipContent>
-                                                <p>Live Project</p>
+                                                <p>{liveProjectTitle}</p>
                                             </TooltipContent>
                                         </Tooltip>
                                     </TooltipProvider>
@@ -97,7 +83,7 @@ export default function WorkRoot(props: Props) {
                                                 <BsGithub className="text-light-text dark:text-dark-text text-3xl group-hover:text-light-accent group-hover:dark:text-dark-accent transition-all duration-500" />
                                             </TooltipTrigger>
                                             <TooltipContent>
-                                                <p>Github repository</p>
+                                                <p>{gitRepoTitle}</p>
                                             </TooltipContent>
                                         </Tooltip>
                                     </TooltipProvider>
@@ -112,7 +98,7 @@ export default function WorkRoot(props: Props) {
                             className="xl:h-[520px] mb-12"
                             onSlideChange={handleSlideChange}
                         >
-                            {projects.map(({ category, description, github, image, live, num, stack, title }) => {
+                            {projects.map(({ image, num }) => {
                                 return (
                                     <SwiperSlide
                                         key={num}

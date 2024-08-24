@@ -1,7 +1,9 @@
-import ResumeRoot from "@/components/resume/resume-root"
 import { getDictionary } from "@/lib/dictionaries"
+import ResumeRoot from "@/components/resume/resume-root"
 
-export default async function Resume({ params: { lang } }: { params: { lang: "en" | "fa" } }) {
+export default async function Resume(props: PageProp) {
+
+    const { params: { lang } } = props
     const dict = await getDictionary(lang)
     const { titles, about, info, experience, education, skills } = dict.resume
 

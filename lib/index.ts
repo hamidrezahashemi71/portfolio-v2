@@ -1,1 +1,1 @@
-export { dana, jet } from "./fonts";
+export { dana, jet } from "./fonts"

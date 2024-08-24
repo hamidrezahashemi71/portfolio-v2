@@ -1,27 +1,14 @@
 "use client"
 
 import * as React from "react"
-import { FaMoon } from "react-icons/fa";
-import { FaSun } from "react-icons/fa6";
+import { FaMoon } from "react-icons/fa"
+import { FaSun } from "react-icons/fa6"
 import { useTheme } from "next-themes"
-
 import { Button } from "@/components/ui/button"
-import {
-    DropdownMenu,
-    DropdownMenuContent,
-    DropdownMenuItem,
-    DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
 
-type Props = {
-    mode: {
-        dark: string,
-        light: string,
-        system: string
-    }
-}
+export function ModeToggle(props: ModeProps) {
 
-export function ModeToggle(props: Props) {
     const { dark, light, system } = props.mode
     const { setTheme } = useTheme()
 

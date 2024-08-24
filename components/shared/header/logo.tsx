@@ -1,12 +1,7 @@
-import { Locale } from "@/i18n.config"
 import Link from "next/link"
 
-type Props = {
-    title: string
-    lang: Locale
-}
+export default function Logo(props: LogoProps) {
 
-export default function Logo(props: Props) {
     const { title, lang } = props
 
     return (

@@ -1,14 +1,17 @@
 import WorkRoot from '@/components/work/work-root'
 import { getDictionary } from '@/lib/dictionaries'
-import React from 'react'
 
-export default async function Work({ params: { lang } }: { params: { lang: "en" | "fa" } }) {
+export default async function Work(props: PageProp) {
+
+    const { params: { lang } } = props
     const dict = await getDictionary(lang)
-    const { projects } = dict.work
+    const { projects, liveProjectTitle, gitRepoTitle } = dict.work
 
     return (
         <WorkRoot
             projects={projects}
+            liveProjectTitle={liveProjectTitle}
+            gitRepoTitle={gitRepoTitle}
             lang={lang}
         />
     )

@@ -1,29 +1,15 @@
 'use client'
 
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
-import { Locale } from "@/i18n.config"
-import { CiMenuFries } from "react-icons/ci";
+import Logo from "./logo"
 import Link from "next/link"
-import { usePathname } from "next/navigation"
 import { ModeToggle } from "./mode-toggle"
 import LocaleSwitcher from "./locale-toggle"
-import Logo from "./logo"
+import { CiMenuFries } from "react-icons/ci"
+import { usePathname } from "next/navigation"
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 
-type Props = {
-    links: {
-        name: string
-        path: string
-    }[]
-    lang: Locale
-    mode: {
-        dark: string,
-        light: string,
-        system: string
-    }
-    title: string
-}
+export default function MobileNav(props: MobileNavProps) {
 
-export default function MobileNav(props: Props) {
     const { links, lang, mode, title } = props
     const pathname = usePathname()
 

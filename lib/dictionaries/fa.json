@@ -505,7 +505,9 @@
                 "live": "",
                 "github": ""
             }
-        ]
+        ],
+        "liveProjectTitle": "لایو پروژه",
+        "gitRepoTitle": "ریپازیتوری گیتهاب"
     },
     "contact": {
         "title": "همکاری با من",

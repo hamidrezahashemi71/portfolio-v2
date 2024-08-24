@@ -1,25 +1,14 @@
 'use client'
 
-import { Locale } from "@/i18n.config";
-import { motion } from "framer-motion";
-import Link from "next/link";
-import { BsArrowDownRight, BsArrowDownLeft } from "react-icons/bs";
-import { Badge } from "../ui/badge";
+import Link from "next/link"
+import { Badge } from "@/components/ui/badge"
+import { motion } from "framer-motion"
+import { BsArrowDownRight, BsArrowDownLeft } from "react-icons/bs"
 
-type Props = {
-    services: {
-        num: string
-        title: string
-        description: string
-        href: string
-        active: boolean
-        status: string
-    }[]
-    lang: Locale
-}
+export default function ServicesRoot(props: ServicesRootProps) {
 
-export default function ServicesRoot(props: Props) {
     const { services, lang } = props
+
     return (
         <section className="min-h-[80vh] flex flex-col justify-center py-12 xl:py-0">
             <div className="container mx-auto">
@@ -49,7 +38,12 @@ export default function ServicesRoot(props: Props) {
                                         href={href}
                                         className="w-[70px] h-[70px] rounded-full bg-dark-secondary dark:bg-light-secondary group-hover:bg-light-accent group-hover:dark:bg-dark-accent transition-all duration-500 flex justify-center items-center "
                                     >
-                                        {lang === 'en' ? <BsArrowDownRight className="text-light-primary dark:text-dark-primary text-3xl hover:-rotate-45 transition-all duration-500" /> : <BsArrowDownLeft className="text-light-primary hover:rotate-45 transition-all duration-500 dark:text-dark-primary text-3xl" />}
+                                        {
+                                            lang === 'en' ?
+                                                <BsArrowDownRight className="text-light-primary dark:text-dark-primary text-3xl hover:-rotate-45 transition-all duration-500" />
+                                                :
+                                                <BsArrowDownLeft className="text-light-primary hover:rotate-45 transition-all duration-500 dark:text-dark-primary text-3xl" />
+                                        }
                                     </Link>
                                 </div>
                                 <h2 className="text-[42px] font-bold leading-none text-light-text dark:text-dark-text group-hover:text-light-accent group-hover:dark:text-dark-accent transition-all duration-500">
@@ -61,7 +55,9 @@ export default function ServicesRoot(props: Props) {
                                 <Badge
                                     variant={active ? 'default' : 'destructive'}
                                     className='max-w-[100px] flex justify-center items-center'
-                                >{status}</Badge>
+                                >
+                                    {status}
+                                </Badge>
                                 <div className="border-b border-dark-secondary/20 dark:border-light-secondary/20 w-full" />
                             </div>
                         )

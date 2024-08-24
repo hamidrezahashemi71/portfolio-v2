@@ -1,9 +1,9 @@
 "use client"
 
 import * as React from "react"
+import { cn } from "@/lib/utils"
 import * as SelectPrimitive from "@radix-ui/react-select"
 import { FaCheck, FaChevronDown, FaChevronUp } from "react-icons/fa"
-import { cn } from "@/lib/utils"
 
 const Select = SelectPrimitive.Root
 

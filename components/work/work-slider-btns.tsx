@@ -1,10 +1,12 @@
 "use client"
 
 import { useSwiper } from "swiper/react"
-import { PiCaretLeftBold, PiCaretRightBold } from "react-icons/pi";
+import { PiCaretLeftBold, PiCaretRightBold } from "react-icons/pi"
 
 export default function WorkSliderBtns() {
+
     const swiper = useSwiper()
+
     return (
         <div
             dir="ltr"
@@ -14,14 +16,14 @@ export default function WorkSliderBtns() {
                 onClick={() => swiper.slidePrev()}
                 className="bg-light-accent dark:bg-dark-accent hover:bg-light-accent-hover hover:dark:bg-dark-accent-hover text-light-primary dark:text-dark-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all"
             >
-                <PiCaretLeftBold className="" />
+                <PiCaretLeftBold />
             </button>
             <button
                 onClick={() => swiper.slideNext()}
                 className="bg-light-accent dark:bg-dark-accent hover:bg-light-accent-hover hover:dark:bg-dark-accent-hover text-light-primary dark:text-dark-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all"
 
             >
-                <PiCaretRightBold className="" />
+                <PiCaretRightBold />
             </button>
         </div>
     )

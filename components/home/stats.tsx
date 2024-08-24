@@ -2,14 +2,7 @@
 
 import CountUp from 'react-countup'
 
-type Props = {
-    stats: {
-        num: number
-        text: string
-    }[]
-}
-
-export default function Stats(props: Props) {
+export default function Stats(props: HomeStatsProps) {
     const { stats } = props
 
     return (

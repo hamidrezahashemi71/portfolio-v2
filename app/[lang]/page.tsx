@@ -1,12 +1,13 @@
 import Photo from "@/components/home/photo"
-import Socials from "@/components/home/socials"
 import Stats from "@/components/home/stats"
-import { Button } from "@/components/ui/button"
-import { getDictionary } from "@/lib/dictionaries"
 import { FiDownload } from "react-icons/fi"
+import { Button } from "@/components/ui/button"
+import Socials from "@/components/home/socials"
+import { getDictionary } from "@/lib/dictionaries"
 
+export default async function Home(props: PageProp) {
 
-export default async function Home({ params: { lang } }: { params: { lang: "en" | "fa" } }) {
+  const { params: { lang } } = props
   const dict = await getDictionary(lang)
   const { title, h1, span, about, downloadcv, stats } = dict.home
 

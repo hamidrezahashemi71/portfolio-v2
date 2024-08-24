@@ -505,7 +505,9 @@
                 "live": "",
                 "github": ""
             }
-        ]
+        ],
+        "liveProjectTitle": "Live Project",
+        "gitRepoTitle": "Github repository"
     },
     "contact": {
         "title": "Let's work together",
