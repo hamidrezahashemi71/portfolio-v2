@@ -14,7 +14,10 @@ export async function generateMetadata(props: PageProp) {
   const { title, description } = dict.metadata
 
   return {
-    title,
+    title: {
+      default: title,
+      template: `${title} | %s `
+    },
     description
   }
 }
@@ -22,7 +25,6 @@ export async function generateMetadata(props: PageProp) {
 export async function generateStaticParams() {
   return i18n.locales.map(locale => ({ lang: locale }))
 }
-
 
 export default function RootLayout(props: Readonly<RootLayoutProps>) {
 

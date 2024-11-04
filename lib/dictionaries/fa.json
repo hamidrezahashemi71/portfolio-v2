@@ -1,7 +1,7 @@
 {
     "metadata": {
-        "title": "پورتفولیوی من",
-        "description": "این پورتفولیوی سارا جلال است | دولوپر فرانت اند"
+        "title": "سارا جلال",
+        "description": "این پورتفولیوی سارا جلال است | توسعه دهنده فرانت اند"
     },
     "header": {
         "title": "سارا",
@@ -12,7 +12,7 @@
                 "path": "/fa"
             },
             {
-                "name": "سرویس ها",
+                "name": "زمینه های کاری",
                 "path": "/fa/services"
             },
             {
@@ -35,6 +35,7 @@
         }
     },
     "home": {
+        "pageTitle": "خانه",
         "title": "توسعه دهنده وب",
         "h1": "سلام. من",
         "span": "سارا جلال هستم",
@@ -60,6 +61,7 @@
         ]
     },
     "services": {
+        "pageTitle": "زمینه های کاری",
         "services": [
             {
                 "num": "01",
@@ -104,6 +106,7 @@
         ]
     },
     "resume": {
+        "pageTitle": "رزومه",
         "titles": {
             "experience": "تجربه",
             "education": "تحصیلات",
@@ -216,6 +219,7 @@
         }
     },
     "work": {
+        "pageTitle": "کار",
         "projects": [
             {
                 "num": "09",
@@ -510,6 +514,7 @@
         "gitRepoTitle": "ریپازیتوری گیتهاب"
     },
     "contact": {
+        "pageTitle": "ارتباط",
         "title": "همکاری با من",
         "description": "",
         "selectPlaceholder": "یک سرویس انتخاب کنید",
