@@ -36,7 +36,7 @@ export default async function Home(props: PageProp) {
                 size={'lg'}
                 className="uppercase flex items-center gap-2"
               >
-                <Link href={'https://biaupload.com/do.php?filename=org-d9f5b6846eb41.pdf'} target="_blank">
+                <Link href={'/Sara Jalal Resume - Front End Developer.pdf'}>
                   {downloadcv}
                 </Link>
                 <FiDownload className="text-2xl " />
