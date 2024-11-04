@@ -38,7 +38,7 @@ export default function RootLayout(props: Readonly<RootLayoutProps>) {
       <body className={`${lang === 'en' ? `${jet.variable} font-jet` : `${dana.variable} font-dana`}`}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
+          defaultTheme="dark"
           enableSystem
           disableTransitionOnChange
         >
