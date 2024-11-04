@@ -32,12 +32,12 @@ const config = {
           }
         },
         light: {
-          primary: "#FED9ED",
-          secondary: "#E7BCDE",
-          text: "#071E3D",
+          primary: "#f5f7fc",
+          secondary: "#e3e9f5",
+          text: "#333333",
           accent: {
-            DEFAULT: "#FF407D",
-            hover: "#FFCAD4"
+            DEFAULT: "#4866db",
+            hover: "#34499b"
           }
         },
       },

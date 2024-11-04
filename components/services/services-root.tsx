@@ -31,12 +31,13 @@ export default function ServicesRoot(props: ServicesRootProps) {
                                 className="flex-1 flex flex-col justify-center gap-6 group"
                             >
                                 <div className="w-full flex justify-between items-center">
-                                    <div className="text-5xl font-extrabold text-transparent text-outline-light dark:text-outline-dark group-hover:text-outline-light-hover group-hover:dark:text-outline-dark-hover transition-all duration-500">
+                                    <div className="cursor-pointer text-5xl font-extrabold text-transparent text-outline-light dark:text-outline-dark group-hover:text-outline-light-hover group-hover:dark:text-outline-dark-hover transition-all duration-500">
                                         {num}
                                     </div>
                                     <Link
                                         href={href}
-                                        className="w-[70px] h-[70px] rounded-full bg-dark-secondary dark:bg-light-secondary group-hover:bg-light-accent group-hover:dark:bg-dark-accent transition-all duration-500 flex justify-center items-center "
+                                        className="w-[70px] h-[70px] rounded-full bg-light-accent dark:bg-light-secondary group-hover:bg-light-accent-hover
+                                         group-hover:dark:bg-dark-accent transition-all duration-500 flex justify-center items-center "
                                     >
                                         {
                                             lang === 'en' ?
@@ -46,7 +47,7 @@ export default function ServicesRoot(props: ServicesRootProps) {
                                         }
                                     </Link>
                                 </div>
-                                <h2 className="text-[42px] font-bold leading-none text-light-text dark:text-dark-text group-hover:text-light-accent group-hover:dark:text-dark-accent transition-all duration-500">
+                                <h2 className="cursor-pointer text-[42px] font-bold leading-none text-light-text dark:text-dark-text group-hover:text-light-accent group-hover:dark:text-dark-accent transition-all duration-500">
                                     {title}
                                 </h2>
                                 <p className="text-light-text/60 dark:text-dark-text/60">
