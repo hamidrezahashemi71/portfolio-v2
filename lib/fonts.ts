@@ -2,7 +2,7 @@ import localFont from 'next/font/local'
 
 export const dana = localFont({
   src: [{
-    path: '../public/fonts/fa_IR/dana_fa.ttf',
+    path: '../public/fonts/fa_IR/YekanBakh-Regular.ttf',
     weight: '500',
     style: "bold"
   }],
