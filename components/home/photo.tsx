@@ -19,7 +19,8 @@ export default function Photo() {
                 }}
             >
                 <motion.div
-                    className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] dark:mix-blend-lighten mix-blend-darken absolute"
+                    className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] dark:mix-blend-lighten mix-blend-darken absolute 
+                    left-[calc(50%-152px)] xl:left-[calc(50%-253px)] top-[calc(50%-152px)] xl:top-[calc(50%-253px)]"
                     initial={{ opacity: 0 }}
                     animate={{
                         opacity: 1,
