@@ -110,7 +110,7 @@ export default function ContactRoot(props: ContactRootProps) {
                                                         direction: "ltr"
                                                     })
                                                 }}
-                                                className='text-xl'>
+                                                className='text-lg lg:text-xl'>
                                                 {description}
                                             </h3>
                                         </div>
