@@ -64,7 +64,7 @@
             {
                 "num": "01",
                 "title": "Frontend Web Development",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia alias fuga iste.",
+                "description": "Frontend web development involves designing and implementing user interfaces that users interact with. I create beautiful and user-friendly websites using React, Next.js, and TypeScript, focusing on user experience.",
                 "href": "",
                 "active": true,
                 "status": "Active"
@@ -72,7 +72,7 @@
             {
                 "num": "02",
                 "title": "Web Product Management",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia alias fuga iste.",
+                "description": "Web product management involves planning and executing web projects. I have the ability to lead teams and ensure timely project delivery while always striving to optimize processes.",
                 "href": "",
                 "active": true,
                 "status": "Active"
@@ -80,7 +80,7 @@
             {
                 "num": "03",
                 "title": "Wordpress Development",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia alias fuga iste.",
+                "description": "WordPress development allows me to create dynamic and customizable websites using existing tools and plugins. I have experience in designing and developing a variety of websites.",
                 "href": "",
                 "active": true,
                 "status": "Active"
@@ -88,7 +88,7 @@
             {
                 "num": "04",
                 "title": "Graphic Design",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia alias fuga iste.",
+                "description": "Graphic design is an appealing art for me that helps create brands and visual identities using various software. (Inactive, but I can still leverage it in projects.)",
                 "href": "",
                 "active": false,
                 "status": "Inactive"
@@ -96,7 +96,7 @@
             {
                 "num": "05",
                 "title": "Math Teacher",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia alias fuga iste.",
+                "description": "Teaching math and physics provided me with strong communication and educational skills. I helped students understand complex concepts and prepare for entrance exams. (Inactive, but it laid the foundation for my learning journey.)",
                 "href": "",
                 "active": false,
                 "status": "Inactive"
@@ -157,7 +157,7 @@
                     "company": "Nikaat",
                     "companyLinkedInLink": "",
                     "position": "Dev team lead",
-                    "duration": "Jul 2023 - present"
+                    "duration": "Jul 2023 - Present"
                 },
                 {
                     "company": "Nikaat",
@@ -175,7 +175,7 @@
                     "company": "Freelance",
                     "companyLinkedInLink": "",
                     "position": "Wordpress Developer",
-                    "duration": "2020 - present"
+                    "duration": "2019 - Present"
                 },
                 {
                     "company": "Freelance",
@@ -187,7 +187,7 @@
                     "company": "Freelance",
                     "companyLinkedInLink": "",
                     "position": "Math Teacher",
-                    "duration": "2018 - 2020"
+                    "duration": "2019 - 2020"
                 }
             ]
         },
