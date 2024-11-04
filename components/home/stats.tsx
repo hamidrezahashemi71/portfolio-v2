@@ -9,12 +9,15 @@ export default function Stats(props: HomeStatsProps) {
         <section className='pt-4 pb-12 xl:pt-0 xl:pb-0'>
             <div className='container mx-auto'>
                 <div className='flex flex-wrap gap-6 max-w-[80vw] mx-auto xl:max-w-none'>
-                    {stats.map(({ num, text }) => {
+                    {stats.map(({ num, text }, index, ref) => {
                         return (
                             <div
                                 key={text}
                                 className='flex-1 flex gap-4 items-center justify-center xl:justify-start'
                             >
+                                {ref.length - 1 === index &&
+                                    <p className='text-4xl xl:text-6xl font-extrabold'>+</p>
+                                }
                                 <CountUp
                                     end={num}
                                     duration={5}
