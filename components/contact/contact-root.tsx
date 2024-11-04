@@ -89,6 +89,7 @@ export default function ContactRoot(props: ContactRootProps) {
                     <div className='flex-2 flex items-center xl:justify-end order-1 xl:order-none mb-8 xl:mb-0 '>
                         <ul className='flex flex-col gap-10'>
                             {info.map(({ icon, title, description }) => {
+
                                 return (
                                     <li
                                         key={title}
@@ -103,7 +104,13 @@ export default function ContactRoot(props: ContactRootProps) {
                                             <p className='text-light-text/60 dark:text-dark-text/60'>
                                                 {title}
                                             </p>
-                                            <h3 className='text-xl'>
+                                            <h3
+                                                style={{
+                                                    ...(title === "تلفن" && {
+                                                        direction: "ltr"
+                                                    })
+                                                }}
+                                                className='text-xl'>
                                                 {description}
                                             </h3>
                                         </div>

@@ -121,7 +121,7 @@
             },
             {
                 "fieldName": "تلفن",
-                "fieldValue": "(+98) 903 134 6086"
+                "fieldValue": "(98+) 903 134 6086"
             },
             {
                 "fieldName": "تجربه",
@@ -511,7 +511,7 @@
     },
     "contact": {
         "title": "همکاری با من",
-        "description": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ.",
+        "description": "",
         "selectPlaceholder": "یک سرویس انتخاب کنید",
         "select": [
             {
@@ -559,7 +559,7 @@
             {
                 "icon": "phone",
                 "title": "تلفن",
-                "description": "9031346086 (98+) "
+                "description": "(98+) 903 134 6086"
             },
             {
                 "icon": "email",

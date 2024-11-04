@@ -511,7 +511,7 @@
     },
     "contact": {
         "title": "Let's work together",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia alias fuga iste.",
+        "description": "",
         "selectPlaceholder": "Select a service",
         "select": [
             {
@@ -559,7 +559,7 @@
             {
                 "icon": "phone",
                 "title": "Phone",
-                "description": "(+98) 903 134 6086"
+                "description": "(98+) 903 134 6086"
             },
             {
                 "icon": "email",
