@@ -151,7 +151,7 @@
         "experience": {
             "icon": "/images/resume/badge.svg",
             "title": "My experience",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia alias fuga iste.",
+            "description": "",
             "items": [
                 {
                     "company": "Nikaat",
@@ -194,13 +194,13 @@
         "education": {
             "icon": "/images/resume/cap.svg",
             "title": "My education",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia alias fuga iste.",
+            "description": "",
             "items": [
                 {
                     "Institution": "Makeen Programming Bootcamp",
                     "companyLinkedInLink": "",
                     "position": "Frontend development Intern",
-                    "duration": "Jun 2022 - Oct 2022"
+                    "duration": "Jun 2022 - Jan 2023"
                 },
                 {
                     "Institution": "Islamic Azad University Science & Research Branch",
@@ -212,7 +212,7 @@
         },
         "skills": {
             "title": "My skills",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia alias fuga iste."
+            "description": ""
         }
     },
     "work": {
