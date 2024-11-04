@@ -1,14 +1,14 @@
 'use client'
 
-import Link from 'next/link'
 import { i18n } from '@/i18n.config'
 import { FaGlobe } from "react-icons/fa"
-import { usePathname } from 'next/navigation'
 import { Button } from '@/components/ui/button'
+import { usePathname, useRouter } from 'next/navigation'
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
 
-export default function LocaleSwitcher() {
+export default function LocaleSwitcher({ lang }: { lang: Locale }) {
 
+    const router = useRouter()
     const pathName = usePathname()
 
     const redirectedPathName = (locale: string) => {
@@ -29,13 +29,12 @@ export default function LocaleSwitcher() {
             <DropdownMenuContent align="end">
                 {i18n.locales.map(locale => {
                     return (
-                        <DropdownMenuItem key={locale}>
-                            <Link
-                                href={redirectedPathName(locale)}
-                                className='capitalize w-full'
-                            >
-                                {locale}
-                            </Link>
+                        <DropdownMenuItem
+                            key={locale}
+                            style={{ justifyContent: lang === "fa" ? "flex-end" : "flex-start" }}
+                            className='capitalize w-full cursor-pointer'
+                            onClick={() => router.push(redirectedPathName(locale))}>
+                            {locale}
                         </DropdownMenuItem>
                     )
                 })}

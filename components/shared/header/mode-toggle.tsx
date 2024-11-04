@@ -9,7 +9,7 @@ import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigge
 
 export function ModeToggle(props: ModeProps) {
 
-    const { dark, light, system } = props.mode
+    const { mode: { dark, light, system }, lang } = props
     const { setTheme } = useTheme()
 
     return (
@@ -21,14 +21,14 @@ export function ModeToggle(props: ModeProps) {
                     <span className="sr-only">Toggle theme</span>
                 </Button>
             </DropdownMenuTrigger>
-            <DropdownMenuContent align="end">
-                <DropdownMenuItem onClick={() => setTheme("light")}>
+            <DropdownMenuContent align={"end"}>
+                <DropdownMenuItem style={{ justifyContent: lang === "fa" ? "flex-end" : "flex-start" }} onClick={() => setTheme("light")}>
                     {light}
                 </DropdownMenuItem>
-                <DropdownMenuItem onClick={() => setTheme("dark")}>
+                <DropdownMenuItem style={{ justifyContent: lang === "fa" ? "flex-end" : "flex-start" }} onClick={() => setTheme("dark")}>
                     {dark}
                 </DropdownMenuItem>
-                <DropdownMenuItem onClick={() => setTheme("system")}>
+                <DropdownMenuItem style={{ justifyContent: lang === "fa" ? "flex-end" : "flex-start" }} onClick={() => setTheme("system")}>
                     {system}
                 </DropdownMenuItem>
             </DropdownMenuContent>

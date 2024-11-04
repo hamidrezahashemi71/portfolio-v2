@@ -24,8 +24,8 @@ export default async function Header(props: LangProp) {
                             {hireMe}
                         </Button>
                     </Link>
-                    <ModeToggle mode={mode} />
-                    <LocaleSwitcher />
+                    <ModeToggle mode={mode} lang={lang} />
+                    <LocaleSwitcher lang={lang} />
                 </div>
                 <div className="xl:hidden">
                     <MobileNav links={links} lang={lang} mode={mode} title={title} />

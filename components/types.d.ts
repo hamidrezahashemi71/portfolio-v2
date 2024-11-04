@@ -34,6 +34,7 @@ type ModeProps = {
         light: string,
         system: string
     }
+    lang: Locale
 }
 
 type DesktopNavProps = {
