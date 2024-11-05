@@ -111,7 +111,6 @@ type ResumeAboutProps = Pick<ResumeRootProps, 'about' | 'info' | 'lang'>
 // WORK ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
 type WorkRootProps = {
     projects: {
-        num: string
         category: string
         title: string
         description: string

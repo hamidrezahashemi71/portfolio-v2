@@ -222,25 +222,80 @@
         "pageTitle": "Work",
         "projects": [
             {
-                "num": "09",
                 "category": "frontend",
-                "title": "Nikaat/panel",
-                "description": "A simple pwa panel for Nikaat/landing and Nikaat/cocofit-landing users to have access to their diet and workout program.",
+                "title": "Sararmjalal/Simple-resume-builder",
+                "description": "This project is a personal resume builder platform using React-Pdf-Renderer and a JSON file. It allows developers to quickly generate an ATS-friendly resume.",
                 "stack": [
                     {
-                        "name": "Typescript"
+                        "name": "JavaScript"
+                    },
+                    {
+                        "name": "TypeScript"
+                    },
+                    {
+                        "name": "React.js"
+                    },
+                    {
+                        "name": "React-pdf/renderer"
+                    }
+                ],
+                "image": "/images/work/simple-resume-builder.png",
+                "live": "#",
+                "github": "https://github.com/sararmjalal/simple-resume-builder"
+            },
+            {
+                "category": "frontend",
+                "title": "Nikaat/Skenas",
+                "description": "Skenas is a single-page app for bank inquiries. It was my first experience using TailwindCSS and Ui-Premetives, and I created a complex form using React-Hook-Form. I also achieved a 100% Lighthouse mobile score and deployed the project using Docker.",
+                "stack": [
+                    {
+                        "name": "JavaScript"
+                    },
+                    {
+                        "name": "TypeScript"
+                    },
+                    {
+                        "name": "Tailwind CSS"
+                    },
+                    {
+                        "name": "React.js"
+                    },
+                    {
+                        "name": " Next.js"
+                    },
+                    {
+                        "name": "React-Hook-Form"
+                    },
+                    {
+                        "name": "Axios"
+                    },
+                    {
+                        "name": "React Query"
+                    },
+                    {
+                        "name": "Zustand"
+                    },
+                    {
+                        "name": "Docker"
+                    }
+                ],
+                "image": "/images/work/skenas.png",
+                "live": "https://service.skenas.io/",
+                "github": "https://github.com/sararmjalal"
+            },
+            {
+                "category": "Development Team-Lead",
+                "title": "Nikaat/Viracc-Panel",
+                "description": "This is the main panel for managing various projects within Viracc. It supports different personas and offers a wide range of tools for business assessment, job search, education, testing, skill validation, and more. I served as the Lead Developer for this project.",
+                "stack": [
+                    {
+                        "name": "Javascript"
                     },
                     {
                         "name": "React"
                     },
                     {
-                        "name": "Next"
-                    },
-                    {
-                        "name": "NextPWA"
-                    },
-                    {
-                        "name": "Tailwind"
+                        "name": "Bootstrap"
                     },
                     {
                         "name": "Axios"
@@ -249,108 +304,116 @@
                         "name": "ReactQuery"
                     },
                     {
-                        "name": "GOauth"
+                        "name": "ReduxToolkit"
+                    },
+                    {
+                        "name": "Webpack.config"
+                    },
+                    {
+                        "name": "React-pdf/renderer"
+                    }
+                ],
+                "image": "/images/work/viracc-panel.png",
+                "live": "https://panel.viracc.ir/",
+                "github": "https://github.com/sararmjalal"
+            },
+            {
+                "category": "Development Team-Lead",
+                "title": "Nikaat/Viracc-Viracup",
+                "description": "Viracup is a dynamic event landing page builder connected to the Viracc panel. Content is fully customizable via the panel.",
+                "stack": [
+                    {
+                        "name": "Javascript"
+                    },
+                    {
+                        "name": "React"
+                    },
+                    {
+                        "name": "Tailwind CSS"
+                    },
+                    {
+                        "name": "Axios"
+                    },
+                    {
+                        "name": "ReactQuery"
+                    }
+                ],
+                "image": "/images/work/placeholder.jpg",
+                "live": "https://cup.viracc.ir",
+                "github": "https://github.com/sararmjalal"
+            },
+            {
+                "category": "Development Team-Lead",
+                "title": "Nikaat/Viracc-School",
+                "description": "The Viracc-School project initially focused on providing courses and resume-building tools for students. Over time, it became one of the company's largest projects. The first phase of the project involved quickly setting up a template to display courses, allow registration, and enable course reviews.",
+                "stack": [
+                    {
+                        "name": "Javascript"
+                    },
+                    {
+                        "name": "React"
+                    },
+                    {
+                        "name": "Bootstrap"
+                    },
+                    {
+                        "name": "ReactQuery"
+                    },
+                    {
+                        "name": "ReduxToolkit"
+                    },
+                    {
+                        "name": "Webpack.config"
+                    }
+                ],
+                "image": "/images/work/viracc-school.png",
+                "live": "https://school.viracc.ir",
+                "github": "https://github.com/sararmjalal"
+            },
+            {
+                "category": "frontend",
+                "title": "Nikaat/Panel",
+                "description": "After the landing and quiz were implemented, a panel for receiving fitness and diet plans was required. This was my first experience implementing a PWA. I successfully achieved a 96% mobile performance score on Lighthouse by optimizing the project.",
+                "stack": [
+                    {
+                        "name": "Typescript"
+                    },
+                    {
+                        "name": "React.js"
+                    },
+                    {
+                        "name": "Next.js"
+                    },
+                    {
+                        "name": "PWA"
+                    },
+                    {
+                        "name": "Tailwind CSS"
+                    },
+                    {
+                        "name": "Axios"
+                    },
+                    {
+                        "name": "Next.js"
+                    },
+                    {
+                        "name": "React Query"
+                    },
+                    {
+                        "name": "Sentry"
                     },
                     {
                         "name": "GoogleAnalytics"
                     }
                 ],
-                "image": "/images/work/thumb1.png",
+                "image": "/images/work/matcha-panel.png",
                 "live": "https://panel.matchadiet.com/",
                 "github": "https://github.com/sararmjalal"
             },
             {
-                "num": "08",
                 "category": "frontend",
-                "title": "Nikaat/chatfit",
-                "description": "A simple styled bot quiz built with elements provided by the api which has different types provided in url ",
-                "stack": [
-                    {
-                        "name": "Typescript"
-                    },
-                    {
-                        "name": "React"
-                    },
-                    {
-                        "name": "Next"
-                    },
-                    {
-                        "name": "Tailwind"
-                    },
-                    {
-                        "name": "Axios"
-                    },
-                    {
-                        "name": "ReactQuery"
-                    }
-                ],
-                "image": "/images/work/thumb1.png",
-                "live": "",
-                "github": "https://github.com/sararmjalal"
-            },
-            {
-                "num": "07",
-                "category": "frontend",
-                "title": "Nikaat/maktab",
-                "description": "An educational website which includes separate panels for teachers, students, etc. Reistered students can take courses, take online tests, acquire certificate, build resume and start lookin for a job.",
-                "stack": [
-                    {
-                        "name": "Javascript"
-                    },
-                    {
-                        "name": "React"
-                    },
-                    {
-                        "name": "Bootstrap"
-                    },
-                    {
-                        "name": "ReactQuery"
-                    },
-                    {
-                        "name": "ReduxToolkit"
-                    },
-                    {
-                        "name": "Webpack.config"
-                    }
-                ],
-                "image": "/images/work/thumb1.png",
-                "live": "https://school.viracc.ir/",
-                "github": "https://github.com/sararmjalal"
-            },
-            {
-                "num": "06",
-                "category": "frontend",
-                "title": "Nikaat/maktab-panel",
-                "description": "Panel related to Nikaat/maktab making all that features happen",
-                "stack": [
-                    {
-                        "name": "Javascript"
-                    },
-                    {
-                        "name": "React"
-                    },
-                    {
-                        "name": "Bootstrap"
-                    },
-                    {
-                        "name": "ReactQuery"
-                    },
-                    {
-                        "name": "ReduxToolkit"
-                    },
-                    {
-                        "name": "Webpack.config"
-                    }
-                ],
-                "image": "/images/work/thumb1.png",
-                "live": "https://panel.viracc.ir",
-                "github": "https://github.com/sararmjalal"
-            },
-            {
-                "num": "05",
-                "category": "frontend",
-                "title": "Nikaat/home-landing",
-                "description": "Static home page of all landings (nikaat-landing).",
+                "title": "Nikaat/Home-Landing",
+                "description": "This was the initial landing page for the quiz project, following a modular approach like the main landing project.",
                 "stack": [
                     {
                         "name": "Typescript"
@@ -368,15 +431,14 @@
                         "name": "GoogleAnalytics"
                     }
                 ],
-                "image": "/images/work/thumb1.png",
+                "image": "/images/work/matcha-home-landing.png",
                 "live": "https://matchadiet.com/",
                 "github": "https://github.com/sararmjalal"
             },
             {
-                "num": "04",
                 "category": "frontend",
-                "title": "Nikaat/landing",
-                "description": "A simple quiz built with elements and styles provided by the api which has different types provided in url ",
+                "title": "Nikaat/Landing",
+                "description": "After finishing my internship, my first project at Nikat was a single-page app with a quiz for fitness. The project was dynamic and implemented for various niches like fitness, pregnancy, and yoga. The main challenge was making a single source code that could work for all these projects. Additionally, the project supported multiple payment gateways (including Iranian and PayPal). ",
                 "stack": [
                     {
                         "name": "Typescript"
@@ -409,82 +471,79 @@
                         "name": "Hatjar"
                     }
                 ],
-                "image": "/images/work/thumb1.png",
-                "live": "https://quiz.matchadiet.com?type=fit",
+                "image": "/images/work/matcha-quiz.png",
+                "live": "https://quiz.matchadiet.com/question/aid=start&type=fit",
                 "github": "https://github.com/sararmjalal"
             },
             {
-                "num": "03",
                 "category": "frontend",
-                "title": "E-commerce",
-                "description": "An E-commerce app with basic features like admin dashboard, user dashboard, shopping, card, etc.",
+                "title": "Makeen/E-commerce",
+                "description": "As my final internship project, I was assigned a complex e-commerce website. In this project, as an admin, you can create categories for products, define variables for each category (e.g., CPU for laptops), and assign image galleries to products. As a customer, you can select products, add them to your cart, and place an order. Although the project was not connected to a payment gateway, it helped me gain valuable experience with Node.js. It was also my first time working with TypeScript in a relatively large project.",
                 "stack": [
                     {
                         "name": "TypeScript"
                     },
                     {
-                        "name": "React"
+                        "name": "React.js"
                     },
                     {
-                        "name": "Next"
+                        "name": "Next.js"
                     },
                     {
-                        "name": "ReactQuery"
+                        "name": "Node.js"
                     },
                     {
-                        "name": "React-hook-forms"
+                        "name": "React Query"
                     },
                     {
-                        "name": "ReduxToolkit"
+                        "name": "React Hook Forms"
                     },
                     {
-                        "name": "Tailwind"
+                        "name": "Redux Toolkit"
+                    },
+                    {
+                        "name": "Tailwind CSS"
                     }
                 ],
-                "image": "/images/work/thumb1.png",
-                "live": "",
+                "image": "/images/work/placeholder.jpg",
+                "live": "#",
                 "github": "https://github.com/Sararmjalal/ecommerce-final"
             },
             {
-                "num": "02",
                 "category": "frontend",
-                "title": "Blogext",
-                "description": "A simpAe bAog app using Nex..js",
+                "title": "Makeen/Blogext",
+                "description": "For my first project using Next.js, I was assigned a blogging platform (which I had previously built with React.js). In this project, as an author, you can upload your blogs with featured images, and as a user, you can sign up and leave comments and ratings on posts. A simple blog app, like many others!",
                 "stack": [
                     {
-                        "name": "React"
+                        "name": "React.js"
                     },
                     {
-                        "name": "Next"
+                        "name": "Next.js"
                     },
                     {
                         "name": "MaterialUI"
                     },
                     {
-                        "name": "RESTfulAPI"
-                    },
-                    {
                         "name": "SWR"
                     },
                     {
-                        "name": "ReduxToolkit"
+                        "name": "Redux Toolkit"
                     },
                     {
                         "name": "TinyMCE"
                     }
                 ],
-                "image": "/images/work/thumb1.png",
+                "image": "/images/work/placeholder.jpg",
                 "live": "",
                 "github": "https://github.com/Sararmjalal/blogext"
             },
             {
-                "num": "01",
                 "category": "frontend",
-                "title": "fineql",
-                "description": "A simpAe finance Dashboard using GraphQL",
+                "title": "Makeen/Fineql",
+                "description": "As my first experience using GraphQL at Makin company, I was assigned a financial project. The project is a dashboard for managing personal expenses. In this app, you can create categories for your expenses, define the time for each expense, and visualize them monthly and yearly on a graph. Additionally, you can assign a location to each expense. A simple, yet useful app.",
                 "stack": [
                     {
-                        "name": "React"
+                        "name": "React.js"
                     },
                     {
                         "name": "GraphQL"
@@ -493,19 +552,19 @@
                         "name": "ApolloProvider"
                     },
                     {
-                        "name": "Tailwind"
+                        "name": "Tailwind CSS"
                     },
                     {
                         "name": "Recharts"
                     },
                     {
-                        "name": "ReactRouter"
+                        "name": "React Router"
                     },
                     {
-                        "name": "ReactLeaflet"
+                        "name": "React Leaflet"
                     }
                 ],
-                "image": "/en/images/work/thumb1.png",
+                "image": "/images/work/placeholder.jpg",
                 "live": "",
                 "github": ""
             }

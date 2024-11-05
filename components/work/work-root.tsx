@@ -11,14 +11,24 @@ import { Swiper as SwiperType } from "swiper/types"
 import { BsArrowUpRight, BsArrowUpLeft, BsGithub } from "react-icons/bs"
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
 
+const numGenerator = (currentIndex: number, projectsLength: number) => {
+    const thisNum = projectsLength - currentIndex
+    return String(thisNum).length === 1 ? `${0}${thisNum}` : `${thisNum}`
+}
+
 export default function WorkRoot(props: WorkRootProps) {
 
     const { projects, liveProjectTitle, gitRepoTitle, lang } = props
-    const [project, setProject] = useState(projects[0])
+    const [project, setProject] = useState({ ...projects[0], num: numGenerator(0, projects.length), isFirst: true, isLast: false })
 
     const handleSlideChange = (swiper: SwiperType) => {
         const currentIndex = swiper.activeIndex
-        setProject(projects[currentIndex])
+        setProject({
+            ...projects[currentIndex],
+            num: numGenerator(currentIndex, projects.length),
+            isFirst: currentIndex === 0,
+            isLast: currentIndex === projects.length - 1
+        })
     }
 
     const loaderProp = ({ src }: { src: string }) => src
@@ -39,7 +49,7 @@ export default function WorkRoot(props: WorkRootProps) {
             <div className="container mx-auto">
                 <div className="flex flex-col xl:flex-row xl:gap-[30px]">
                     <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none">
-                        <div className="flex flex-col gap-[30px] h-[50%]">
+                        <div className="flex flex-col gap-[30px] pb-24">
                             <div className="text-8xl leading-none font-extrabold text-transparent text-outline-light dark:text-outline-dark group-hover:text-outline-light-hover group-hover:dark:text-outline-dark-hover transition-all duration-500">
                                 {project.num}
                             </div>
@@ -98,10 +108,10 @@ export default function WorkRoot(props: WorkRootProps) {
                             className="xl:h-[520px] mb-12"
                             onSlideChange={handleSlideChange}
                         >
-                            {projects.map(({ image, num }) => {
+                            {projects.map(({ image, title }) => {
                                 return (
                                     <SwiperSlide
-                                        key={num}
+                                        key={title}
                                         className="w-full"
                                     >
                                         <div className="h-[460px] relative group flex justify-center items-center bg-pink-50/20">
@@ -113,13 +123,17 @@ export default function WorkRoot(props: WorkRootProps) {
                                                     alt="project-image"
                                                     fill
                                                     className="object-cover"
+                                                    onError={(e) => e.currentTarget.srcset = "/images/work/placeholder.jpg"}
                                                 />
                                             </div>
                                         </div>
                                     </SwiperSlide>
                                 )
                             })}
-                            <WorkSliderBtns />
+                            <WorkSliderBtns
+                                isFirst={project.isFirst}
+                                isLast={project.isLast}
+                            />
                         </Swiper>
                     </div>
                 </div>
