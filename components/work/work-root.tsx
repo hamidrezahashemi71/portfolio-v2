@@ -131,8 +131,9 @@ export default function WorkRoot(props: WorkRootProps) {
                                 )
                             })}
                             <WorkSliderBtns
-                                isFirst={project.isFirst}
+                                lang={lang}
                                 isLast={project.isLast}
+                                isFirst={project.isFirst}
                             />
                         </Swiper>
                     </div>
