@@ -56,6 +56,9 @@ export default function WorkRoot(props: WorkRootProps) {
                             <h2 className="text-[42px] font-bold leading-none text-light-text dark:text-dark-text group-hover:text-light-accent group-hover:dark:text-dark-accent transition-all duration-500 capitalize">
                                 {project.category}
                             </h2>
+                            <h3 className="text-xl font-bold leading-none text-light-accent dark:text-dark-accent transition-all duration-500 capitalize">
+                                {project.title}
+                            </h3>
                             <p className="text-light-text/60 dark:text-dark-text/60">
                                 {project.description}
                             </p>

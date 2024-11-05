@@ -224,7 +224,7 @@
             {
                 "category": "توسعه دهنده فرانت-اند",
                 "title": "Sararmjalal/Simple-resume-builder",
-                "description": "This project is a personal resume builder platform using React-Pdf-Renderer and a JSON file. It allows developers to quickly generate an ATS-friendly resume.",
+                "description": "این پروژه یک پلتفرم شخصی برای ساخت رزومه است که از React-Pdf-Renderer و یک فایل JSON برای تولید رزومه استفاده می‌کند. هدف این پروژه ایجاد یک پلتفرم ساده و کاربردی برای توسعه‌دهندگان است تا به راحتی یک رزومه ATS-Friendly بسازند.",
                 "stack": [
                     {
                         "name": "JavaScript"
@@ -246,7 +246,7 @@
             {
                 "category": "توسعه دهنده فرانت-اند",
                 "title": "Nikaat/Skenas",
-                "description": "Skenas is a single-page app for bank inquiries. It was my first experience using TailwindCSS and Ui-Premetives, and I created a complex form using React-Hook-Form. I also achieved a 100% Lighthouse mobile score and deployed the project using Docker.",
+                "description": "Skenas یک پروژه تک صفحه‌ای برای استعلامات بانکی است. در این پروژه برای اولین بار از TailwindCSS و Ui-Premetives استفاده کردم و با React-Hook-Form یک فرم پیچیده ایجاد کردم. همچنین برای اولین بار از Docker برای دپلوی پروژه‌ها استفاده کردم و توانستم به امتیاز 100% از لایت‌هاوس موبایل دست یابم.",
                 "stack": [
                     {
                         "name": "JavaScript"
@@ -286,7 +286,7 @@
             {
                 "category": "لید تیم توسعه",
                 "title": "Nikaat/Viracc-Panel",
-                "description": "This is the main panel for managing various projects within Viracc. It supports different personas and offers a wide range of tools for business assessment, job search, education, testing, skill validation, and more. I served as the Lead Developer for this project.",
+                "description": "این پنل مرکزی برای مدیریت پروژه‌های مختلف در Viracc است. این پنل شامل ابزارهای متنوعی برای ارزیابی کسب و کار، کاریابی، آموزش، آزمون، و مدیریت پروژه‌ها است. در این پروژه، من به عنوان لید تیم توسعه، طراحی مدل دیتا، توسعه فرانت و ارتباط با تیم محصول را بر عهده داشتم.",
                 "stack": [
                     {
                         "name": "Javascript"
@@ -320,7 +320,7 @@
             {
                 "category": "لید تیم توسعه",
                 "title": "Nikaat/Viracc-Viracup",
-                "description": "Viracup is a dynamic event landing page builder connected to the Viracc panel. Content is fully customizable via the panel.",
+                "description": "Viracup یک پلتفرم لندینگ ساز برای رویدادها است که به پنل Viracc متصل است. محتوای سایت از طریق پنل قابل مدیریت است.",
                 "stack": [
                     {
                         "name": "Javascript"
@@ -345,7 +345,7 @@
             {
                 "category": "لید تیم توسعه",
                 "title": "Nikaat/Viracc-School",
-                "description": "The Viracc-School project initially focused on providing courses and resume-building tools for students. Over time, it became one of the company's largest projects. The first phase of the project involved quickly setting up a template to display courses, allow registration, and enable course reviews.",
+                "description": "پروژه Viracc-School در ابتدا به‌عنوان یک پلتفرم آموزشی ساده برای ثبت‌نام دوره‌ها و دریافت نظرات طراحی شد. اما با گذشت زمان، پروژه به یکی از بزرگترین پروژه‌های شرکت تبدیل شد و فازهای مختلفی به آن اضافه شد.",
                 "stack": [
                     {
                         "name": "Javascript"
@@ -373,7 +373,7 @@
             {
                 "category": "توسعه دهنده فرانت-اند",
                 "title": "Nikaat/Panel",
-                "description": "After the landing and quiz were implemented, a panel for receiving fitness and diet plans was required. This was my first experience implementing a PWA. I successfully achieved a 96% mobile performance score on Lighthouse by optimizing the project.",
+                "description": "پس از پیاده‌سازی لندینگ و کوییز، پنلی برای دریافت برنامه‌های غذایی و ورزشی نیاز بود. این پروژه اولین تجربه من در پیاده‌سازی PWA بود. در نهایت، با دریافت امتیاز 96% پرفورمنس از لایت‌هاوس موبایل، پروژه به پایان رسید.",
                 "stack": [
                     {
                         "name": "Typescript"
@@ -438,7 +438,7 @@
             {
                 "category": "توسعه دهنده فرانت-اند",
                 "title": "Nikaat/Landing",
-                "description": "After finishing my internship, my first project at Nikat was a single-page app with a quiz for fitness. The project was dynamic and implemented for various niches like fitness, pregnancy, and yoga. The main challenge was making a single source code that could work for all these projects. Additionally, the project supported multiple payment gateways (including Iranian and PayPal). ",
+                "description": "اولین پروژه من پس از اتمام کارآموزی و پیوستن به شرکت نیکات، یک اپلیکیشن تک صفحه‌ای بود که شامل یک quiz برای تناسب اندام بود. این پروژه به صورت داینامیک برای انواع مختلف پروژه‌ها (مانند تناسب اندام، بارداری، یوگا و ...) پیاده‌سازی می‌شد. چالش اصلی، پیاده‌سازی پروژه به‌گونه‌ای بود که یک سورس کد برای تمام این پروژه‌ها کاربرد داشته باشد. همچنین، پروژه از درگاه‌های پرداخت مختلف (از جمله درگاه‌های ایرانی و PayPal) پشتیبانی می‌کرد.",
                 "stack": [
                     {
                         "name": "Typescript"
@@ -478,7 +478,7 @@
             {
                 "category": "توسعه دهنده فرانت-اند",
                 "title": "Makeen/E-commerce",
-                "description": "As my final internship project, I was assigned a complex e-commerce website. In this project, as an admin, you can create categories for products, define variables for each category (e.g., CPU for laptops), and assign image galleries to products. As a customer, you can select products, add them to your cart, and place an order. Although the project was not connected to a payment gateway, it helped me gain valuable experience with Node.js. It was also my first time working with TypeScript in a relatively large project.",
+                "description": "به عنوان آخرین پروژه در دوران کارآموزی، یک وبسایت ایکامرس پیچیده به من محول شد. در این پروژه، به عنوان ادمین می‌توانید برای محصولات خود دسته‌بندی ایجاد کنید و برای هر دسته‌بندی، وریبل‌های مربوط به آن (مثلاً وریبل CPU برای دسته‌بندی لپ‌تاپ‌ها) تعریف کنید. همچنین، برای هر محصول می‌توانید گالری تصاویر را اضافه کنید. از طرفی، به عنوان مشتری می‌توانید وارد سایت شوید، محصول مورد نظر خود را انتخاب کرده و سفارش خود را ثبت کنید. این پروژه به دلیل عدم اتصال به درگاه پرداخت و نیاز به تغییرات سمت بک‌اند، به من فرصت آموختن کار با Node.js را نیز داد. این پروژه همچنین اولین تجربه من از TypeScript در یک پروژه نسبتا بزرگ بود.",
                 "stack": [
                     {
                         "name": "TypeScript"
@@ -512,7 +512,7 @@
             {
                 "category": "توسعه دهنده فرانت-اند",
                 "title": "Makeen/Blogext",
-                "description": "For my first project using Next.js, I was assigned a blogging platform (which I had previously built with React.js). In this project, as an author, you can upload your blogs with featured images, and as a user, you can sign up and leave comments and ratings on posts. A simple blog app, like many others!",
+                "description": "به عنوان اولین تجربه پیاده‌سازی وبسایت با Next.js، یک پروژه بلاگ به من محول شد (که پیش‌تر تجربه پیاده‌سازی آن با React.js را داشتم). در این پروژه می‌توانید به عنوان نویسنده، بلاگ‌های خود را همراه با عکس‌های شاخص آپلود کنید و همچنین به عنوان کاربر ثبت‌نام کرده و برای بلاگ‌ها نظر و رتبه بدهید. یک اپلیکیشن بلاگ ساده و مشابه سایر بلاگ‌ها.",
                 "stack": [
                     {
                         "name": "React.js"
@@ -540,7 +540,7 @@
             {
                 "category": "توسعه دهنده فرانت-اند",
                 "title": "Makeen/Fineql",
-                "description": "As my first experience using GraphQL at Makin company, I was assigned a financial project. The project is a dashboard for managing personal expenses. In this app, you can create categories for your expenses, define the time for each expense, and visualize them monthly and yearly on a graph. Additionally, you can assign a location to each expense. A simple, yet useful app.",
+                "description": "به عنوان اولین تجربه استفاده از GraphQL در شرکت مکین، یک پروژه مالی به من محول شد. کلیت پروژه یک داشبورد برای مدیریت هزینه‌های شخصی است. در این پروژه می‌توانید برای هزینه‌های شخصی خود دسته‌بندی ایجاد کنید، زمان مربوط به هر خرج را مشخص کرده و در نهایت، هزینه‌ها را به‌صورت ماهانه و سالانه در نمودار مشاهده کنید. همچنین، می‌توانید برای هر هزینه، یک لوکیشن مشخص کنید.",
                 "stack": [
                     {
                         "name": "React.js"
