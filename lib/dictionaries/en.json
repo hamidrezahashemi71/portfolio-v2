@@ -1,7 +1,7 @@
 {
     "metadata": {
         "title": "Sara Jalal",
-        "description": "This is a portfolio for Sara Jalal | Frontend web developer"
+        "description": "This is a portfolio for Sara Jalal | Front-End Developer web developer"
     },
     "header": {
         "title": "Sara",
@@ -65,8 +65,8 @@
         "services": [
             {
                 "num": "01",
-                "title": "Frontend Web Development",
-                "description": "Frontend web development involves designing and implementing user interfaces that users interact with. I create beautiful and user-friendly websites using React, Next.js, and TypeScript, focusing on user experience.",
+                "title": "Front-End Developer Web Development",
+                "description": "Front-End Developer web development involves designing and implementing user interfaces that users interact with. I create beautiful and user-friendly websites using React, Next.js, and TypeScript, focusing on user experience.",
                 "href": "",
                 "active": true,
                 "status": "Active"
@@ -165,13 +165,13 @@
                 {
                     "company": "Nikaat",
                     "companyLinkedInLink": "",
-                    "position": "Frontend Developer",
+                    "position": "Front-End Developer Developer",
                     "duration": "Feb 2023 - Present"
                 },
                 {
                     "company": "Makeen Ideal Institution",
                     "companyLinkedInLink": "",
-                    "position": "Frontend Developer",
+                    "position": "Front-End Developer Developer",
                     "duration": "Jun 2022 - Jan 2023"
                 },
                 {
@@ -202,7 +202,7 @@
                 {
                     "Institution": "Makeen Programming Bootcamp",
                     "companyLinkedInLink": "",
-                    "position": "Frontend development Intern",
+                    "position": "Front-End Developer development Intern",
                     "duration": "Jun 2022 - Jan 2023"
                 },
                 {
@@ -222,7 +222,7 @@
         "pageTitle": "Work",
         "projects": [
             {
-                "category": "frontend",
+                "category": "Front-End Developer",
                 "title": "Sararmjalal/Simple-resume-builder",
                 "description": "This project is a personal resume builder platform using React-Pdf-Renderer and a JSON file. It allows developers to quickly generate an ATS-friendly resume.",
                 "stack": [
@@ -244,7 +244,7 @@
                 "github": "https://github.com/sararmjalal/simple-resume-builder"
             },
             {
-                "category": "frontend",
+                "category": "Front-End Developer",
                 "title": "Nikaat/Skenas",
                 "description": "Skenas is a single-page app for bank inquiries. It was my first experience using TailwindCSS and Ui-Premetives, and I created a complex form using React-Hook-Form. I also achieved a 100% Lighthouse mobile score and deployed the project using Docker.",
                 "stack": [
@@ -371,7 +371,7 @@
                 "github": "https://github.com/sararmjalal"
             },
             {
-                "category": "frontend",
+                "category": "Front-End Developer",
                 "title": "Nikaat/Panel",
                 "description": "After the landing and quiz were implemented, a panel for receiving fitness and diet plans was required. This was my first experience implementing a PWA. I successfully achieved a 96% mobile performance score on Lighthouse by optimizing the project.",
                 "stack": [
@@ -411,7 +411,7 @@
                 "github": "https://github.com/sararmjalal"
             },
             {
-                "category": "frontend",
+                "category": "Front-End Developer",
                 "title": "Nikaat/Home-Landing",
                 "description": "This was the initial landing page for the quiz project, following a modular approach like the main landing project.",
                 "stack": [
@@ -436,7 +436,7 @@
                 "github": "https://github.com/sararmjalal"
             },
             {
-                "category": "frontend",
+                "category": "Front-End Developer",
                 "title": "Nikaat/Landing",
                 "description": "After finishing my internship, my first project at Nikat was a single-page app with a quiz for fitness. The project was dynamic and implemented for various niches like fitness, pregnancy, and yoga. The main challenge was making a single source code that could work for all these projects. Additionally, the project supported multiple payment gateways (including Iranian and PayPal). ",
                 "stack": [
@@ -476,7 +476,7 @@
                 "github": "https://github.com/sararmjalal"
             },
             {
-                "category": "frontend",
+                "category": "Front-End Developer",
                 "title": "Makeen/E-commerce",
                 "description": "As my final internship project, I was assigned a complex e-commerce website. In this project, as an admin, you can create categories for products, define variables for each category (e.g., CPU for laptops), and assign image galleries to products. As a customer, you can select products, add them to your cart, and place an order. Although the project was not connected to a payment gateway, it helped me gain valuable experience with Node.js. It was also my first time working with TypeScript in a relatively large project.",
                 "stack": [
@@ -510,7 +510,7 @@
                 "github": "https://github.com/Sararmjalal/ecommerce-final"
             },
             {
-                "category": "frontend",
+                "category": "Front-End Developer",
                 "title": "Makeen/Blogext",
                 "description": "For my first project using Next.js, I was assigned a blogging platform (which I had previously built with React.js). In this project, as an author, you can upload your blogs with featured images, and as a user, you can sign up and leave comments and ratings on posts. A simple blog app, like many others!",
                 "stack": [
@@ -538,7 +538,7 @@
                 "github": "https://github.com/Sararmjalal/blogext"
             },
             {
-                "category": "frontend",
+                "category": "Front-End Developer",
                 "title": "Makeen/Fineql",
                 "description": "As my first experience using GraphQL at Makin company, I was assigned a financial project. The project is a dashboard for managing personal expenses. In this app, you can create categories for your expenses, define the time for each expense, and visualize them monthly and yearly on a graph. Additionally, you can assign a location to each expense. A simple, yet useful app.",
                 "stack": [
@@ -580,7 +580,7 @@
         "select": [
             {
                 "value": "fwd",
-                "title": "Frontend Web Development"
+                "title": "Front-End Developer Web Development"
             },
             {
                 "value": "wpm",
